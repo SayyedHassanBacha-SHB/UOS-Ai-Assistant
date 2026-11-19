@@ -1,0 +1,556 @@
+{
+  "name": "university-of-swat-knowledge-base",
+  "generated": "2026-11-18",
+  "status": "v2.1 RAG preparation; source mapping improved where explicitly supported; not a fresh source crawl; not exhaustive",
+  "files": [
+    {
+      "path": "00-university-overview/campus-status.md",
+      "title": "Campus Locations and Recognition Status",
+      "category": "University Overview",
+      "verification_status": "verified",
+      "source_keys": [
+        "maincampus",
+        "womencampus",
+        "hec_campuses",
+        "about"
+      ],
+      "words": 525,
+      "word_count": 530
+    },
+    {
+      "path": "00-university-overview/campuses.md",
+      "title": "University of Swat - Campuses",
+      "category": "University Overview",
+      "verification_status": "verified_with_caveats",
+      "source_keys": [
+        "home",
+        "contact",
+        "maincampus",
+        "womencampus",
+        "hec_campuses",
+        "about"
+      ],
+      "words": 433,
+      "word_count": 440
+    },
+    {
+      "path": "00-university-overview/history.md",
+      "title": "University of Swat - History",
+      "category": "University Overview",
+      "verification_status": "verified",
+      "source_keys": [
+        "about",
+        "home"
+      ],
+      "words": 357,
+      "word_count": 360
+    },
+    {
+      "path": "00-university-overview/leadership.md",
+      "title": "University of Swat - Leadership",
+      "category": "University Overview",
+      "verification_status": "verified",
+      "source_keys": [
+        "home",
+        "admdir",
+        "about"
+      ],
+      "words": 298,
+      "word_count": 302
+    },
+    {
+      "path": "00-university-overview/legal-status-and-recognition.md",
+      "title": "Legal Establishment, Public-Sector Status and HEC Recognition",
+      "category": "University Overview",
+      "verification_status": "verified",
+      "source_keys": [
+        "hec_profile",
+        "kpcode_reg"
+      ],
+      "words": 328,
+      "word_count": 331
+    },
+    {
+      "path": "00-university-overview/university-faqs.md",
+      "title": "University Overview FAQs",
+      "category": "University Overview",
+      "verification_status": "verified",
+      "source_keys": [
+        "home",
+        "about",
+        "pakswat"
+      ],
+      "words": 383,
+      "word_count": 387
+    },
+    {
+      "path": "00-university-overview/university-profile.md",
+      "title": "University of Swat - Profile",
+      "category": "University Overview",
+      "verification_status": "verified",
+      "source_keys": [
+        "home",
+        "about"
+      ],
+      "words": 496,
+      "word_count": 499
+    },
+    {
+      "path": "00-university-overview/vision-mission-values.md",
+      "title": "Vision, Mission, Core Values and Objectives",
+      "category": "University Overview",
+      "verification_status": "verified",
+      "source_keys": [
+        "about"
+      ],
+      "words": 256,
+      "word_count": 258
+    },
+    {
+      "path": "01-admissions/admission-contacts.md",
+      "title": "Admission Contacts",
+      "category": "Admissions",
+      "verification_status": "verified",
+      "source_keys": [
+        "admdir",
+        "contact"
+      ],
+      "words": 143,
+      "word_count": 146
+    },
+    {
+      "path": "01-admissions/admission-deadlines.md",
+      "title": "Admission Deadlines (Status Report)",
+      "category": "Admissions",
+      "verification_status": "unverified",
+      "source_keys": [
+        "admdir",
+        "pakadm",
+        "pakswat"
+      ],
+      "words": 283,
+      "word_count": 287
+    },
+    {
+      "path": "01-admissions/admission-faqs.md",
+      "title": "Admission FAQs",
+      "category": "Admissions",
+      "verification_status": "verified",
+      "source_keys": [
+        "admdir",
+        "contact",
+        "fee",
+        "statutes"
+      ],
+      "words": 483,
+      "word_count": 488
+    },
+    {
+      "path": "01-admissions/admission-overview.md",
+      "title": "Admission Overview",
+      "category": "Admissions",
+      "verification_status": "verified",
+      "source_keys": [
+        "admdir",
+        "contact",
+        "downloads"
+      ],
+      "words": 328,
+      "word_count": 332
+    },
+    {
+      "path": "01-admissions/fee-structure.md",
+      "title": "Fee Structure and Fee Rules",
+      "category": "Admissions",
+      "verification_status": "potentially_outdated",
+      "source_keys": [
+        "fee",
+        "statutes",
+        "downloads"
+      ],
+      "words": 1035,
+      "word_count": 1038
+    },
+    {
+      "path": "01-admissions/scholarships.md",
+      "title": "Scholarships and Financial Aid",
+      "category": "Admissions",
+      "verification_status": "verified",
+      "source_keys": [
+        "kpef",
+        "downloads",
+        "home"
+      ],
+      "words": 355,
+      "word_count": 359
+    },
+    {
+      "path": "02-academics/academic-calendar.md",
+      "title": "Academic Calendar",
+      "category": "Academics",
+      "verification_status": "potentially_outdated",
+      "source_keys": [
+        "calendar"
+      ],
+      "words": 222,
+      "word_count": 223
+    },
+    {
+      "path": "02-academics/departments.md",
+      "title": "Departments",
+      "category": "Academics",
+      "verification_status": "verified",
+      "source_keys": [
+        "home",
+        "contact"
+      ],
+      "words": 787,
+      "word_count": 790
+    },
+    {
+      "path": "02-academics/faculties.md",
+      "title": "Faculties",
+      "category": "Academics",
+      "verification_status": "verified",
+      "source_keys": [
+        "home",
+        "contact"
+      ],
+      "words": 323,
+      "word_count": 326
+    },
+    {
+      "path": "02-academics/faculty-of-allied-health-sciences.md",
+      "title": "Faculty of Allied Health Sciences",
+      "category": "Academics",
+      "verification_status": "verified",
+      "source_keys": [
+        "alliedhealth",
+        "maincampus"
+      ],
+      "words": 271,
+      "word_count": 274
+    },
+    {
+      "path": "02-academics/semester-system.md",
+      "title": "Semester System",
+      "category": "Academics",
+      "verification_status": "verified",
+      "source_keys": [
+        "statutes",
+        "downloads"
+      ],
+      "words": 325,
+      "word_count": 328
+    },
+    {
+      "path": "03-departments-and-faculty/department-directory.md",
+      "title": "Department Directory",
+      "category": "Departments and Faculty",
+      "verification_status": "verified",
+      "source_keys": [
+        "contact",
+        "home"
+      ],
+      "words": 298,
+      "word_count": 301
+    },
+    {
+      "path": "04-student-services/official-digital-services.md",
+      "title": "Official Digital Services and University Portals",
+      "category": "Student Services",
+      "verification_status": "verified",
+      "source_keys": [
+        "home",
+        "cms"
+      ],
+      "words": 390,
+      "word_count": 393
+    },
+    {
+      "path": "04-student-services/student-services-overview.md",
+      "title": "Student Services Overview",
+      "category": "Student Services",
+      "verification_status": "verified",
+      "source_keys": [
+        "home",
+        "contact",
+        "downloads"
+      ],
+      "words": 486,
+      "word_count": 490
+    },
+    {
+      "path": "05-administration/contact-directory.md",
+      "title": "Administrative Contact Directory",
+      "category": "Administration",
+      "verification_status": "verified",
+      "source_keys": [
+        "contact",
+        "home"
+      ],
+      "words": 209,
+      "word_count": 212
+    },
+    {
+      "path": "05-administration/university-offices.md",
+      "title": "University Offices and Directorates",
+      "category": "Administration",
+      "verification_status": "verified",
+      "source_keys": [
+        "home",
+        "statutes"
+      ],
+      "words": 471,
+      "word_count": 474
+    },
+    {
+      "path": "06-research-and-development/oric.md",
+      "title": "Office of Research, Innovation and Commercialization (ORIC)",
+      "category": "Research and Development",
+      "verification_status": "verified",
+      "source_keys": [
+        "downloads",
+        "home",
+        "statutes"
+      ],
+      "words": 336,
+      "word_count": 340
+    },
+    {
+      "path": "07-policies-and-regulations/official-regulations.md",
+      "title": "Official Regulations and Policies Index",
+      "category": "Policies and Regulations",
+      "verification_status": "verified",
+      "source_keys": [
+        "downloads",
+        "statutes"
+      ],
+      "words": 490,
+      "word_count": 493
+    },
+    {
+      "path": "08-news-and-announcements/current-announcements.md",
+      "title": "Announcements and News Snapshot (2026-11-18)",
+      "category": "News and Announcements",
+      "verification_status": "verified",
+      "source_keys": [
+        "home"
+      ],
+      "words": 350,
+      "word_count": 352
+    },
+    {
+      "path": "09-careers-and-opportunities/job-opportunities.md",
+      "title": "Job Opportunities (Snapshot)",
+      "category": "Careers and Opportunities",
+      "verification_status": "verified",
+      "source_keys": [
+        "home",
+        "downloads",
+        "statutes"
+      ],
+      "words": 304,
+      "word_count": 308
+    },
+    {
+      "path": "11-downloads-and-official-documents/document-index.md",
+      "title": "Document Index",
+      "category": "Downloads and Official Documents",
+      "verification_status": "verified",
+      "source_keys": [
+        "downloads",
+        "calendar"
+      ],
+      "words": 1766,
+      "word_count": 1769
+    },
+    {
+      "path": "11-downloads-and-official-documents/forms.md",
+      "title": "Official Forms",
+      "category": "Downloads and Official Documents",
+      "verification_status": "verified",
+      "source_keys": [
+        "downloads"
+      ],
+      "words": 269,
+      "word_count": 271
+    },
+    {
+      "path": "12-contacts-and-faqs/general-contact-information.md",
+      "title": "General Contact Information",
+      "category": "Contacts and FAQs",
+      "verification_status": "verified",
+      "source_keys": [
+        "home",
+        "contact",
+        "admdir",
+        "about"
+      ],
+      "words": 259,
+      "word_count": 264
+    },
+    {
+      "path": "13-source-registry/external-sources.md",
+      "title": "External Sources Used",
+      "category": "Source Registry",
+      "verification_status": "unverified",
+      "source_keys": [
+        "pakadm",
+        "pakswat",
+        "eduv"
+      ],
+      "words": 297,
+      "word_count": 301
+    },
+    {
+      "path": "13-source-registry/independent-audit-changelog.md",
+      "title": "Independent Audit Change Log",
+      "category": "Source Registry",
+      "verification_status": "verified",
+      "source_keys": [
+        "about",
+        "maincampus",
+        "womencampus",
+        "alliedhealth",
+        "hec_profile",
+        "hec_campuses",
+        "kpcode_reg"
+      ],
+      "words": 499,
+      "word_count": 507
+    },
+    {
+      "path": "13-source-registry/official-documents.md",
+      "title": "Official Documents Analysed",
+      "category": "Source Registry",
+      "verification_status": "verified",
+      "source_keys": [],
+      "words": 128,
+      "word_count": 128
+    },
+    {
+      "path": "13-source-registry/official-web-pages.md",
+      "title": "Official Web Pages Reviewed",
+      "category": "Source Registry",
+      "verification_status": "verified",
+      "source_keys": [],
+      "words": 218,
+      "word_count": 218
+    },
+    {
+      "path": "13-source-registry/rag-evaluation-test-set.md",
+      "title": "RAG Evaluation Questions and Expected Behaviours",
+      "category": "Source Registry",
+      "verification_status": "verified_with_caveats",
+      "source_keys": [
+        "home",
+        "hec_profile",
+        "hec_campuses"
+      ],
+      "words": 548,
+      "word_count": 552
+    },
+    {
+      "path": "13-source-registry/research-gaps.md",
+      "title": "Research Gaps and Coverage Report",
+      "category": "Source Registry",
+      "verification_status": "verified_with_caveats",
+      "source_keys": [
+        "home",
+        "about",
+        "maincampus",
+        "womencampus",
+        "hec_campuses"
+      ],
+      "words": 946,
+      "word_count": 952
+    },
+    {
+      "path": "13-source-registry/source-verification.md",
+      "title": "Source Verification Approach",
+      "category": "Source Registry",
+      "verification_status": "verified",
+      "source_keys": [],
+      "words": 290,
+      "word_count": 290
+    },
+    {
+      "path": "13-source-registry/sources-index.md",
+      "title": "Sources Index",
+      "category": "Source Registry",
+      "verification_status": "verified",
+      "source_keys": [],
+      "words": 376,
+      "word_count": 376
+    },
+    {
+      "path": "README.md",
+      "title": "README.md",
+      "category": "Documentation",
+      "verification_status": "documentation",
+      "source_keys": [],
+      "words": 590,
+      "word_count": 590
+    },
+    {
+      "path": "metadata/research-summary.md",
+      "title": "research-summary.md",
+      "category": "Documentation",
+      "verification_status": "documentation",
+      "source_keys": [],
+      "words": 522,
+      "word_count": 522
+    },
+    {
+      "path": "metadata/chunk-preview.json",
+      "title": "Chunk Preview",
+      "category": "RAG Metadata",
+      "verification_status": "documentation",
+      "source_keys": [],
+      "word_count": 0
+    },
+    {
+      "path": "metadata/rag-evaluation-set.json",
+      "title": "Structured RAG Evaluation Set",
+      "category": "RAG Metadata",
+      "verification_status": "documentation",
+      "source_keys": [],
+      "word_count": 0
+    }
+  ],
+  "other_files": [
+    "metadata/categories.json",
+    "metadata/source-registry.json"
+  ],
+  "version": "2.1",
+  "chunking_profile": {
+    "method": "heading-aware Markdown segmentation, then paragraph/table-group packing",
+    "target_tokens": 500,
+    "max_tokens": 800,
+    "overlap_tokens": 80,
+    "token_counting": "Approximate whitespace-token count for preview only; production should use the tokenizer for the selected embedding model.",
+    "table_handling": "Keep a table header with its rows; split oversized tables only by row groups and repeat the header.",
+    "metadata_required": [
+      "document_id",
+      "file_path",
+      "title",
+      "category",
+      "heading_path",
+      "chunk_index",
+      "source_keys",
+      "source_urls",
+      "verification_status",
+      "source_authority",
+      "accessed_date",
+      "last_verified_date",
+      "academic_session",
+      "valid_from",
+      "valid_until",
+      "is_time_sensitive"
+    ]
+  },
+  "file_count": 43,
+  "content_markdown_count": 41,
+  "json_count": 2
+}

@@ -1,0 +1,1353 @@
+{
+  "schema_version": "1.0",
+  "generated_date": "2026-11-18",
+  "note": "Preview only. Token counts use whitespace approximation, not the production model tokenizer. Chunks are generated from current Markdown and must be evaluated before ingestion.",
+  "chunking_profile": {
+    "method": "heading-aware Markdown segmentation, then paragraph/table-group packing",
+    "target_tokens": 500,
+    "max_tokens": 800,
+    "overlap_tokens": 80,
+    "token_counting": "Approximate whitespace-token count for preview only; production should use the tokenizer for the selected embedding model.",
+    "table_handling": "Keep a table header with its rows; split oversized tables only by row groups and repeat the header.",
+    "metadata_required": [
+      "document_id",
+      "file_path",
+      "title",
+      "category",
+      "heading_path",
+      "chunk_index",
+      "source_keys",
+      "source_urls",
+      "verification_status",
+      "source_authority",
+      "accessed_date",
+      "last_verified_date",
+      "academic_session",
+      "valid_from",
+      "valid_until",
+      "is_time_sensitive"
+    ]
+  },
+  "chunk_count": 39,
+  "chunks": [
+    {
+      "chunk_id": "campus-status-001",
+      "document_id": "00-university-overview__campus-status",
+      "file_path": "00-university-overview/campus-status.md",
+      "title": "Campus Locations and Recognition Status",
+      "category": "University Overview",
+      "heading_path": [
+        "Campus Locations and Recognition Status",
+        "Main Campus",
+        "Women Campus",
+        "HEC campus-list caveat",
+        "Shangla",
+        "How the chatbot should answer campus questions",
+        "Sources"
+      ],
+      "chunk_index": 0,
+      "content": "# Campus Locations and Recognition Status\n\n## Main Campus\n\nThe official Main Campus page identifies the Main Campus as **Charbagh, Swat, Khyber Pakhtunkhwa, Pakistan**. It lists academic blocks, teaching departments and administrative offices located at the Main Campus.\n\nOfficial page: https://uswat.edu.pk/maincampus/\n\n## Women Campus\n\nThe University of Swat maintains a Women Campus page. The page states that the Women Campus was inaugurated on **25 July 2017** and describes the College of Home Sciences as a constituent college whose Home Economics department became part of the Women Campus.\n\nThe Women Campus page lists these departments:\n- Botany\n- Psychological Studies\n- Zoology\n- Home Economics\n- Computer and Software Technology\n- English and Foreign Languages\n\nThe page identifies a Campus Coordinator and provides the email `mahrukhanum@uswat.edu.pk`. It also lists `womencampus@uswat.edu.pk` as a contact email and refers to the Girls Hostel at Main Campus.\n\nOfficial page: https://uswat.edu.pk/women-campus/\n\n## HEC campus-list caveat\n\nThe HEC recognised-campuses page lists **Women Campus Swat** with a validity period shown as **15 January 2024 to 30 September 2025**. Since that displayed end date has passed, this knowledge base does **not** assert that the campus currently holds the same HEC campus recognition status. Users asking about current recognition should be directed to HEC and the university for confirmation.\n\n## Shangla\n\nThe University of Swat's historical About page says a Shangla Campus was established. However, the HEC recognised-campuses page states that **Shangla was upgraded to the University of Shangla with effect from 1 August 2022**.\n\nTherefore, do not describe Shangla as a current University of Swat campus. The historical reference should be understood in the context of the later upgrade.\n\n## How the chatbot should answer campus questions\n\n- For the university's currently presented campus information, link to the official Main Campus and Women Campus pages.\n- If asked whether Women Campus is currently HEC-recognised, disclose that the HEC page currently displays a validity period ending 30 September 2025 and recommend confirmation from HEC/the university.\n- If asked about Shangla, explain that it was historically mentioned as a University of Swat campus and that HEC records its upgrade to the University of Shangla effective 1 August 2022.\n- Do not infer current campus operations, admission availability, program offerings or recognition from an old page alone.\n\n## Sources\n\n1. Main Campus – University of Swat\n   - URL: https://uswat.edu.pk/maincampus/\n   - Source Type: Official University Webpage\n   - Accessed Date: 2026-11-18\n2. Women Campus – University of Swat\n   - URL: https://uswat.edu.pk/women-campus/\n   - Source Type: Official University Webpage\n   - Accessed Date: 2026-11-18\n3. HEC – Recognised Campuses\n   - URL: https://www.hec.gov.pk/english/universities/Pages/DAIs/HEC-recognized-Campuses.aspx\n   - Source Type: Higher Education Commission of Pakistan\n   - Accessed Date: 2026-11-18\n4. About University – University of Swat\n   - URL: https://uswat.edu.pk/about-university/\n   - Source Type: Official University Webpage\n   - Accessed Date: 2026-11-18",
+      "approx_token_count": 457,
+      "source_keys": [
+        "maincampus",
+        "womencampus",
+        "hec_campuses",
+        "about"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/maincampus/",
+        "https://uswat.edu.pk/women-campus/",
+        "https://www.hec.gov.pk/english/universities/Pages/DAIs/HEC-recognized-Campuses.aspx",
+        "https://uswat.edu.pk/about-university/"
+      ],
+      "verification_status": "verified",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": true,
+      "overlap_from_previous_approx_tokens": 0
+    },
+    {
+      "chunk_id": "campuses-001",
+      "document_id": "00-university-overview__campuses",
+      "file_path": "00-university-overview/campuses.md",
+      "title": "University of Swat - Campuses",
+      "category": "University Overview",
+      "heading_path": [
+        "Campuses",
+        "Important address distinction",
+        "Chatbot response guidance",
+        "Sources"
+      ],
+      "chunk_index": 0,
+      "content": "# Campuses\n\n| Campus / location | What the sources support | Current-status note |\n|---|---|---|\n| Main Campus | The University of Swat's official Main Campus page identifies Charbagh, Swat, Khyber Pakhtunkhwa, Pakistan. | Presented by the university as its Main Campus. Facilities and programme availability must be checked on current official pages. |\n| Women Campus | The university maintains a Women Campus page. It states the campus was inaugurated on 25 July 2017 and lists six departments: Botany, Psychological Studies, Zoology, Home Economics, Computer and Software Technology, and English and Foreign Languages. | HEC's recognised-campuses page displays a validity period from 15 January 2024 to 30 September 2025. Because the displayed end date has passed, this knowledge base does not assert current HEC recognition. Confirm directly with HEC and the university. |\n| Shangla | The university's historical About page mentions a Shangla Campus. | HEC states Shangla was upgraded to the University of Shangla effective 1 August 2022. Do not describe it as a current University of Swat campus. |\n\n## Important address distinction\nThe Main Campus page identifies Charbagh. The HEC institutional profile separately displays G.T. Road, Odigram as contact information. These are recorded as different source contexts and must not be merged into one address without confirmation.\n\n## Chatbot response guidance\n- For Main Campus location, use Charbagh and link to the official Main Campus page.\n- For Women Campus questions, distinguish the university's published page from HEC's dated recognition entry. Do not claim current HEC recognition based only on a validity period ending 30 September 2025.\n- For Shangla, explain the historical relationship and HEC-recorded upgrade to the University of Shangla on 1 August 2022.\n- Do not infer current admissions, programmes, facilities, operational status or recognition from historical or undated pages.\n\n## Sources\n\n1. Main Campus – University of Swat: https://uswat.edu.pk/maincampus/\n2. Women Campus – University of Swat: https://uswat.edu.pk/women-campus/\n3. HEC – Recognised Campuses: https://www.hec.gov.pk/english/universities/Pages/DAIs/HEC-recognized-Campuses.aspx\n4. About University – University of Swat: https://uswat.edu.pk/about-university/\n5. HEC – University of Swat institutional profile: https://www.hec.gov.pk/english/universities/Pages/KPK/University-of-Swat.aspx\n6. University homepage and Contact List: https://uswat.edu.pk/ and https://uswat.edu.pk/contact-list/",
+      "approx_token_count": 349,
+      "source_keys": [
+        "home",
+        "contact",
+        "maincampus",
+        "womencampus",
+        "hec_campuses",
+        "about"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/",
+        "https://uswat.edu.pk/contact-list/",
+        "https://uswat.edu.pk/maincampus/",
+        "https://uswat.edu.pk/women-campus/",
+        "https://www.hec.gov.pk/english/universities/Pages/DAIs/HEC-recognized-Campuses.aspx",
+        "https://uswat.edu.pk/about-university/"
+      ],
+      "verification_status": "verified_with_caveats",
+      "source_authority": "University of Swat; Higher Education Commission of Pakistan",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "2026-11-18",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": true,
+      "overlap_from_previous_approx_tokens": 0
+    },
+    {
+      "chunk_id": "history-001",
+      "document_id": "00-university-overview__history",
+      "file_path": "00-university-overview/history.md",
+      "title": "University of Swat - History",
+      "category": "University Overview",
+      "heading_path": [
+        "History of the University of Swat",
+        "Key dated facts (as stated on the official About page)",
+        "Early infrastructure",
+        "Growth",
+        "Conflicts and caveats",
+        "Sources"
+      ],
+      "chunk_index": 0,
+      "content": "# History of the University of Swat\n\n## Key dated facts (as stated on the official About page)\n| Date | Event |\n|---|---|\n| 2010-05-29 | The then Prime Minister of Pakistan announced the establishment of the University of Swat during a visit to the Swat valley. |\n| 2010-07 (July 2010) | The university came into formal existence by order of the Governor of Khyber Pakhtunkhwa. |\n| 2010-08 (August 2010) | First Vice Chancellor, Dr. Muhammad Farooq Khan (Shaheed), was appointed. |\n| Academic session 2010-11 | The first academic session; 7 departments were launched. |\n\n## Early infrastructure\nThe Higher Education Department handed over two buildings at Saidu Sharif, Swat, to the new university. Land for the university's own campus at Charbagh was acquired. The About page says the Main Campus now resides at Charbagh.\n\n## Growth\nThe About page says departments increased from 7 to 27 and that two new campuses, a Woman Campus and a Shangla Campus, were established.\n\n## Conflicts and caveats\n- **Conflicting department counts:** the About page says departments grew to 27; the homepage paragraph (2017 snapshot) says 22; the website navigation on 2026-11-18 lists 24 teaching departments. These describe different dates or counting methods. Use the navigation list in `02-academics/departments.md` for the current published list.\n- **Shangla:** historical University of Swat material mentions a Shangla Campus. HEC states that Shangla was upgraded to the University of Shangla with effect from 1 August 2022. Do not list it as a current University of Swat campus.\n- **Women Campus recognition:** the university website continues to present a Women Campus page, while HEC's recognised-campuses page shows a validity period ending 30 September 2025. Current recognition status requires confirmation.\n\n## Sources\n\n1. About University\n   - URL: https://uswat.edu.pk/about-university/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18\n2. UNIVERSITY OF SWAT - Aspiring for Quality Education with Relevance (Homepage)\n   - URL: https://uswat.edu.pk/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18",
+      "approx_token_count": 338,
+      "source_keys": [
+        "about",
+        "home"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/about-university/",
+        "https://uswat.edu.pk/"
+      ],
+      "verification_status": "verified",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": false,
+      "overlap_from_previous_approx_tokens": 0
+    },
+    {
+      "chunk_id": "leadership-001",
+      "document_id": "00-university-overview__leadership",
+      "file_path": "00-university-overview/leadership.md",
+      "title": "University of Swat - Leadership",
+      "category": "University Overview",
+      "heading_path": [
+        "Leadership",
+        "Vice Chancellor",
+        "Other office holders found",
+        "Founding leadership (historical)",
+        "Not found in this research stage",
+        "Sources"
+      ],
+      "chunk_index": 0,
+      "content": "# Leadership\n\n## Vice Chancellor\n- **Prof. Dr. Husnul Amin**, Vice Chancellor, University of Swat (as displayed on the homepage on 2026-11-18).\n- The homepage carries a \"Vice Chancellor's Message\" (https://uswat.edu.pk/vice-chancellors-message-2/). In it the Vice Chancellor says he is taking up office and expresses the ambition of making the university a nationally recognised and internationally connected centre of academic excellence, research innovation and societal engagement. The date of the message was not shown in the retrieved text.\n\n## Other office holders found\n| Office | Name | Contact | Status |\n|---|---|---|---|\n| Director Admissions | Mr. Fida Hussain | admissions@uswat.edu.pk | verified (Directorate of Admissions page, 2026-11-18) |\n\n## Founding leadership (historical)\n- Dr. Muhammad Farooq Khan (Shaheed), first Vice Chancellor, appointed August 2010.\n\n## Not found in this research stage\nPro Vice Chancellor, Registrar, Treasurer, Controller of Examinations, Provost, Deans and Directors: the office pages exist on the website (see `05-administration/university-offices.md`) but they were not retrieved, so no names are recorded. Chancellor: under the Khyber Pakhtunkhwa Universities Act framework referenced in the Statutes, a Chancellor exists; the name was not retrieved from the university website.\n\n## Sources\n\n1. UNIVERSITY OF SWAT - Aspiring for Quality Education with Relevance (Homepage)\n   - URL: https://uswat.edu.pk/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18\n2. Directorate of Admissions\n   - URL: https://uswat.edu.pk/directorate-of-admissions/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18\n3. About University\n   - URL: https://uswat.edu.pk/about-university/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18",
+      "approx_token_count": 262,
+      "source_keys": [
+        "home",
+        "admdir",
+        "about"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/",
+        "https://uswat.edu.pk/directorate-of-admissions/",
+        "https://uswat.edu.pk/about-university/"
+      ],
+      "verification_status": "verified",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": true,
+      "overlap_from_previous_approx_tokens": 0
+    },
+    {
+      "chunk_id": "legal-status-and-recognition-001",
+      "document_id": "00-university-overview__legal-status-and-recognition",
+      "file_path": "00-university-overview/legal-status-and-recognition.md",
+      "title": "Legal Establishment, Public-Sector Status and HEC Recognition",
+      "category": "University Overview",
+      "heading_path": [
+        "Legal Establishment, Public-Sector Status and HEC Recognition",
+        "Legal establishment",
+        "Public-sector status and recognition",
+        "Address discrepancy to preserve",
+        "Sources"
+      ],
+      "chunk_index": 0,
+      "content": "# Legal Establishment, Public-Sector Status and HEC Recognition\n\n## Legal establishment\n\nThe Government of Khyber Pakhtunkhwa's official law record identifies the **University of Swat Regulation, 2010 (Khyber Pakhtunkhwa Regulation No. II of 2010)**. The regulation is dated **7 July 2010** and provides for the establishment of the University of Swat.\n\nThe university's own About University page separately states that its establishment was announced on 29 May 2010 and that it came into formal existence in July 2010.\n\n## Public-sector status and recognition\n\nThe Higher Education Commission (HEC) institution profile identifies the University of Swat as:\n- Sector: Public\n- Chartered by: Government of Khyber Pakhtunkhwa\n- Established since: 7 July 2010\n- Recognised University: Yes\n- City: Swat\n- Province: Khyber Pakhtunkhwa\n\nFor current recognition details, refer directly to the HEC profile because HEC recognition and campus status can change.\n\n## Address discrepancy to preserve\n\nThe University of Swat website identifies the **Main Campus as Charbagh, Swat**. The HEC institution profile displays contact information at **G.T. Road, Odigram, Swat**. These may represent different postal/contact locations. Do not merge them into one address or tell users they are identical without confirmation from the university.\n\n## Sources\n\n1. HEC – University of Swat institution profile\n   - URL: https://www.hec.gov.pk/english/universities/Pages/KPK/University-of-Swat.aspx\n   - Source Type: Higher Education Commission of Pakistan\n   - Accessed Date: 2026-11-18\n2. Khyber Pakhtunkhwa Code – University of Swat Regulation, 2010\n   - URL: https://kpcode.kp.gov.pk/homepage/lawDetails/1260\n   - Source Type: Government legal database\n   - Promulgation Date: 2010-07-07\n3. University of Swat – About University\n   - URL: https://uswat.edu.pk/about-university/\n   - Source Type: Official University Webpage\n   - Accessed Date: 2026-11-18",
+      "approx_token_count": 261,
+      "source_keys": [
+        "hec_profile",
+        "kpcode_reg"
+      ],
+      "source_urls": [
+        "https://www.hec.gov.pk/english/universities/Pages/KPK/University-of-Swat.aspx",
+        "https://kpcode.kp.gov.pk/homepage/lawDetails/1260",
+        "https://kpcode.kp.gov.pk/uploads/2010_02_THE_UNIVERSITY_OF_SWAT_REGULATION_2010.pdf"
+      ],
+      "verification_status": "verified",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": false,
+      "overlap_from_previous_approx_tokens": 0
+    },
+    {
+      "chunk_id": "university-faqs-001",
+      "document_id": "00-university-overview__university-faqs",
+      "file_path": "00-university-overview/university-faqs.md",
+      "title": "University Overview FAQs",
+      "category": "University Overview",
+      "heading_path": [
+        "University Overview - FAQs",
+        "Sources"
+      ],
+      "chunk_index": 0,
+      "content": "# University Overview - FAQs\n\n**Question:** When was the University of Swat established?\n**Answer:** The official About page says the establishment was announced on 29 May 2010 and the university came into formal existence in July 2010 by order of the Governor of Khyber Pakhtunkhwa.\n**Source:** https://uswat.edu.pk/about-university/\n\n**Question:** Where is the University of Swat's main campus?\n**Answer:** At Charbagh, Swat, Khyber Pakhtunkhwa, Pakistan. All main academic campuses and administrative offices are there, per the About page.\n**Source:** https://uswat.edu.pk/about-university/\n\n**Question:** Who is the Vice Chancellor?\n**Answer:** The homepage displayed Prof. Dr. Husnul Amin as Vice Chancellor on 2026-11-18. Check the website for any later change.\n**Source:** https://uswat.edu.pk/\n\n**Question:** Is the University of Swat a public or private university?\n**Answer:** Public-sector, per the About page.\n**Source:** https://uswat.edu.pk/about-university/\n\n**Question:** Is the University of Swat the same as the University of Agriculture Swat, the University of Veterinary and Animal Sciences Swat, or other Swat institutions?\n**Answer:** No. Third-party admission listings show these as separate institutions in Swat with their own admissions. This answer rests on external listings, not an official University of Swat statement. When answering admission questions, make sure the source refers to the University of Swat (uswat.edu.pk).\n**Source:** https://www.pakadmissions.com/admissions-in-swat (external)\n\n**Question:** How many students and programs does the university have today?\n**Answer:** Not available. The homepage counters could not be read, and the only published figures found are from 2017. Refer users to the university website.\n\n## Sources\n\n1. UNIVERSITY OF SWAT - Aspiring for Quality Education with Relevance (Homepage)\n   - URL: https://uswat.edu.pk/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18\n2. About University\n   - URL: https://uswat.edu.pk/about-university/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18\n3. Universities Admissions in Swat 2026 (PakAdmissions)\n   - URL: https://www.pakadmissions.com/admissions-in-swat\n   - Source Type: External Third-Party Website (not an official university statement)\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18",
+      "approx_token_count": 317,
+      "source_keys": [
+        "home",
+        "about",
+        "pakswat"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/",
+        "https://uswat.edu.pk/about-university/",
+        "https://www.pakadmissions.com/admissions-in-swat"
+      ],
+      "verification_status": "verified",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": false,
+      "overlap_from_previous_approx_tokens": 0
+    },
+    {
+      "chunk_id": "university-profile-001",
+      "document_id": "00-university-overview__university-profile",
+      "file_path": "00-university-overview/university-profile.md",
+      "title": "University of Swat - Profile",
+      "category": "University Overview",
+      "heading_path": [
+        "University of Swat - Profile",
+        "Summary",
+        "Structure at a glance (from website navigation, 2026-11-18)",
+        "Statistics - status: unverified",
+        "Recognition and address notes",
+        "Online presence listed on the homepage",
+        "Sources"
+      ],
+      "chunk_index": 0,
+      "content": "# University of Swat - Profile\n\n**Official name:** University of Swat\n**Motto/tagline shown on website:** \"Aspiring for Quality Education with Relevance\"\n**Type:** Public-sector university (stated on the official About page).\n**Location of main campus and administrative offices:** Main Campus, Charbagh, Swat, Khyber Pakhtunkhwa, Pakistan.\n**Official website:** https://uswat.edu.pk/\n**Current Vice Chancellor (as shown on the homepage on 2026-11-18):** Prof. Dr. Husnul Amin.\n\n## Summary\nThe University of Swat was created to provide higher education to the people of the Swat Valley and the wider country. The About page says it was established in 2010. Its main academic campus and all administrative offices are at Charbagh, Swat.\n\n## Structure at a glance (from website navigation, 2026-11-18)\n- Four faculty groupings of teaching departments (24 departments in total), plus a Faculty of Allied Health Sciences and the Hunerkada Center of Excellence for Art and Culture. See `02-academics/faculties.md` and `02-academics/departments.md`.\n- The university website presents Main Campus (Charbagh) and Women Campus. HEC's campus list displays a Women Campus recognition period ending 30 September 2025; current recognition status should be confirmed. Shangla was upgraded to the University of Shangla effective 1 August 2022 according to HEC. See `00-university-overview/campus-status.md`.\n- The official website publishes a vision, mission, six core values and objectives. See `00-university-overview/vision-mission-values.md`.\n- Research office (ORIC), Quality Enhancement Cell (QEC), and a set of administrative offices and directorates. See `05-administration/`.\n\n## Statistics - status: unverified\nThe homepage shows animated counters for campuses, undergraduate programs, MS/MPhil programs, doctorate programs, faculty and students. The values were not readable in the retrieved page (they appeared as 0 because they load dynamically). **No current counts are recorded here.**\n\nThe homepage \"About University\" paragraph gives an older snapshot: 7 disciplines and 272 students at the start, growing to 22 teaching departments with 49 academic programs including 2 sub-campuses, with more than 3,000 students enrolled in 2017. This is **historical (2017)** and must not be presented as current.\n\n## Recognition and address notes\n- HEC identifies University of Swat as a recognised public university, chartered by the Government of Khyber Pakhtunkhwa.\n- The university's Main Campus page says Charbagh, Swat. HEC's profile displays G.T. Road, Odigram, Swat as contact information. Do not assume these are the same address.\n\n## Online presence listed on the homepage\nFacebook (https://www.facebook.com/universityofswat/), LinkedIn (https://www.linkedin.com/company/university-of-swat1/), TikTok, YouTube channel \"Campus TV\", and the webmaster contact webmaster@uswat.edu.pk.\n\n## Sources\n\n1. UNIVERSITY OF SWAT - Aspiring for Quality Education with Relevance (Homepage)\n   - URL: https://uswat.edu.pk/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18\n2. About University\n   - URL: https://uswat.edu.pk/about-university/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18",
+      "approx_token_count": 442,
+      "source_keys": [
+        "home",
+        "about"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/",
+        "https://uswat.edu.pk/about-university/"
+      ],
+      "verification_status": "verified",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": false,
+      "overlap_from_previous_approx_tokens": 0
+    },
+    {
+      "chunk_id": "vision-mission-values-001",
+      "document_id": "00-university-overview__vision-mission-values",
+      "file_path": "00-university-overview/vision-mission-values.md",
+      "title": "Vision, Mission, Core Values and Objectives",
+      "category": "University Overview",
+      "heading_path": [
+        "Vision, Mission, Core Values and Objectives",
+        "Vision",
+        "Mission statement",
+        "Core values",
+        "Objectives",
+        "Motto",
+        "Sources"
+      ],
+      "chunk_index": 0,
+      "content": "# Vision, Mission, Core Values and Objectives\n\nThe University of Swat's official About University page publishes the following statements.\n\n## Vision\n\n> The University of Swat aspires to be a premier seat of learning, distinctively recognized for transformative education and multi-disciplinary research to serve humanity.\n\n## Mission statement\n\n> University of Swat is committed to provide academic and rewarding environment for intellectual growth to promote quality research and education, focused on creative and critical thinking with multi-cultural affinity of glorious human values.\n\n## Core values\n\nThe official page lists six core values:\n\n1. Commitment\n2. Creativity\n3. Excellence\n4. Responsibility\n5. Leadership\n6. Service\n\n## Objectives\n\nThe official page lists objectives concerning:\n- Recognizing and rewarding academic merit.\n- Nurturing creativity and academic excellence.\n- Providing students and academia with a level playing field for intellectual and cultural development.\n- Supporting professional career advancement and social and moral development.\n- Encouraging human-resource development for stakeholders.\n- Developing young people as productive global citizens.\n- Supporting career and intellectual growth in a diverse environment.\n\n**Editorial note:** The objective bullets above are concise paraphrases. Consult the official page for its full original wording.\n\n## Motto\n\n**“Aspiring for Quality Education with Relevance”**\n\n## Sources\n\n1. About University – University of Swat\n   - URL: https://uswat.edu.pk/about-university/\n   - Source Type: Official University Webpage\n   - Accessed Date: 2026-11-18\n   - Relevant content: Vision, mission, core values, objectives and motto.",
+      "approx_token_count": 231,
+      "source_keys": [
+        "about"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/about-university/"
+      ],
+      "verification_status": "verified",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": false,
+      "overlap_from_previous_approx_tokens": 0
+    },
+    {
+      "chunk_id": "admission-contacts-001",
+      "document_id": "01-admissions__admission-contacts",
+      "file_path": "01-admissions/admission-contacts.md",
+      "title": "Admission Contacts",
+      "category": "Admissions",
+      "heading_path": [
+        "Admission Contacts",
+        "Sources"
+      ],
+      "chunk_index": 0,
+      "content": "# Admission Contacts\n\n| Contact | Detail | Status |\n|---|---|---|\n| Director Admissions | Mr. Fida Hussain | verified |\n| Email | admissions@uswat.edu.pk | verified |\n| Admission Office telephone (Contact List) | 920809 | verified as published; area code not stated |\n| Web page | https://uswat.edu.pk/directorate-of-admissions/ | verified |\n\nThe Directorate page also has \"Staff\" and \"Contact Us\" tabs whose content was not rendered in the retrieved text.\n\n## Sources\n\n1. Directorate of Admissions\n   - URL: https://uswat.edu.pk/directorate-of-admissions/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18\n2. Contact List\n   - URL: https://uswat.edu.pk/contact-list/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18",
+      "approx_token_count": 117,
+      "source_keys": [
+        "admdir",
+        "contact"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/directorate-of-admissions/",
+        "https://uswat.edu.pk/contact-list/"
+      ],
+      "verification_status": "verified",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": true,
+      "overlap_from_previous_approx_tokens": 0
+    },
+    {
+      "chunk_id": "admission-deadlines-001",
+      "document_id": "01-admissions__admission-deadlines",
+      "file_path": "01-admissions/admission-deadlines.md",
+      "title": "Admission Deadlines (Status Report)",
+      "category": "Admissions",
+      "heading_path": [
+        "Admission Deadlines - Status Report",
+        "Guidance for the assistant",
+        "Sources"
+      ],
+      "chunk_index": 0,
+      "content": "# Admission Deadlines - Status Report\n\n> **No official current admission deadline was extracted.** The official Directorate page content was not readable. The items below come from **external aggregator websites** and are **not official statements**. Today's date in this research is 2026-11-18, so these dates are in the **past** and must **not** be presented as current deadlines.\n\n| Intake | Information reported by external site | Source type | Status |\n|---|---|---|---|\n| Fall 2026 undergraduate | Online registration reported to start 22 September 2026; last date reported as 12 October 2026 | External (PakAdmissions) | Unverified; past |\n| MS / MPhil / PhD (listed as \"Spring Admission 2026\") | Deadline reported as 26 January 2026 | External (PakAdmissions) | Unverified; past |\n\n## Guidance for the assistant\nWhen asked about deadlines, say that the latest official admission notice must be checked at https://uswat.edu.pk/directorate-of-admissions/ or by emailing admissions@uswat.edu.pk, and never state a date from this file as the current deadline.\n\n## Sources\n\n1. Directorate of Admissions\n   - URL: https://uswat.edu.pk/directorate-of-admissions/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18\n2. BS Botany Admission 2026 at University of Swat (PakAdmissions)\n   - URL: https://www.pakadmissions.com/university-of-swat-uswat-admission-fall-2026\n   - Source Type: External Third-Party Website (not an official university statement)\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18\n3. Universities Admissions in Swat 2026 (PakAdmissions)\n   - URL: https://www.pakadmissions.com/admissions-in-swat\n   - Source Type: External Third-Party Website (not an official university statement)\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18",
+      "approx_token_count": 248,
+      "source_keys": [
+        "admdir",
+        "pakadm",
+        "pakswat"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/directorate-of-admissions/",
+        "https://www.pakadmissions.com/university-of-swat-uswat-admission-fall-2026",
+        "https://www.pakadmissions.com/admissions-in-swat"
+      ],
+      "verification_status": "unverified",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": true,
+      "overlap_from_previous_approx_tokens": 0
+    },
+    {
+      "chunk_id": "admission-faqs-001",
+      "document_id": "01-admissions__admission-faqs",
+      "file_path": "01-admissions/admission-faqs.md",
+      "title": "Admission FAQs",
+      "category": "Admissions",
+      "heading_path": [
+        "Admission FAQs",
+        "Sources"
+      ],
+      "chunk_index": 0,
+      "content": "# Admission FAQs\n\n**Question:** How can I contact the University of Swat admissions office?\n**Answer:** Email admissions@uswat.edu.pk. The university Contact List shows the Admission Office telephone as 920809 (the list does not give an area code). The Director Admissions is Mr. Fida Hussain.\n**Source:** https://uswat.edu.pk/directorate-of-admissions/ ; https://uswat.edu.pk/contact-list/\n\n**Question:** Can a student get a refund of tuition fee after withdrawing?\n**Answer:** The University Statutes 2025 say students who cancel or withdraw may be entitled to a refund of tuition fee on listed grounds (for example personal emergencies, health reasons, family medical care, legal or immigration matters, delay in admission elsewhere), decided case by case, by applying on the prescribed form with proof of payment. The Syndicate can declare some fees non-refundable, and expelled students are not eligible except for the refundable security deposit.\n**Source:** University of Swat Statutes, 2025 (Fees and other Miscellaneous Charges Statutes), https://uswat.edu.pk/wp-content/uploads/2026/07/PDF-Approved-Final-Statutes-2025-Searchable-1.pdf\n\n**Question:** How much does a DMC, transcript or degree cost?\n**Answer:** Under the Syndicate-approved revised fee schedule (about September 2024): DMC normal Rs. 800; original transcript Rs. 700; degree fee normal Rs. 3,500. Other items and urgent rates are in `fee-structure.md`. This schedule may be outdated, so confirm with the university.\n**Source:** https://uswat.edu.pk/wp-content/uploads/2024/09/Revised-Schedule-of-fee-Approved-by-syndicate.pdf\n\n**Question:** What are the eligibility requirements and the merit formula for undergraduate admission?\n**Answer:** Not available in this knowledge base. The official admission tabs could not be read. Refer the user to the Directorate of Admissions page.\n\n**Question:** What is the current admission deadline?\n**Answer:** Not verified. See `admission-deadlines.md`.\n\n## Sources\n\n1. Directorate of Admissions\n   - URL: https://uswat.edu.pk/directorate-of-admissions/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18\n2. Contact List\n   - URL: https://uswat.edu.pk/contact-list/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18\n3. Revised Schedule of fee Approved by syndicate (Ref. No.UoS/Meetings/57-SYND/2024-15)\n   - URL: https://uswat.edu.pk/wp-content/uploads/2024/09/Revised-Schedule-of-fee-Approved-by-syndicate.pdf\n   - Source Type: Official University PDF\n   - Document Date: Not Available\n   - Accessed Date: 2026-11-18\n   - Note: Upload path indicates September 2024; document itself carries no explicit date in the extracted text.\n4. The University of Swat Statutes, 2025 (368 pages)\n   - URL: https://uswat.edu.pk/wp-content/uploads/2026/07/PDF-Approved-Final-Statutes-2025-Searchable-1.pdf\n   - Source Type: Official University PDF\n   - Document Date: Not Available\n   - Accessed Date: 2026-11-18\n   - Note: Upload path indicates July 2026. Only the first ~64 of 368 pages were analysed.",
+      "approx_token_count": 380,
+      "source_keys": [
+        "admdir",
+        "contact",
+        "fee",
+        "statutes"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/directorate-of-admissions/",
+        "https://uswat.edu.pk/contact-list/",
+        "https://uswat.edu.pk/wp-content/uploads/2024/09/Revised-Schedule-of-fee-Approved-by-syndicate.pdf",
+        "https://uswat.edu.pk/wp-content/uploads/2026/07/PDF-Approved-Final-Statutes-2025-Searchable-1.pdf"
+      ],
+      "verification_status": "verified",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": true,
+      "overlap_from_previous_approx_tokens": 0
+    },
+    {
+      "chunk_id": "admission-overview-001",
+      "document_id": "01-admissions__admission-overview",
+      "file_path": "01-admissions/admission-overview.md",
+      "title": "Admission Overview",
+      "category": "Admissions",
+      "heading_path": [
+        "Admission Overview",
+        "Directorate of Admissions",
+        "Admission sections on the official page",
+        "What a chatbot should say",
+        "Related official documents (discovered, not all analysed)",
+        "Fee refund and fee adjustment rules (from the University Statutes 2025)",
+        "Sources"
+      ],
+      "chunk_index": 0,
+      "content": "# Admission Overview\n\n## Directorate of Admissions\n- **Director Admissions:** Mr. Fida Hussain\n- **Email:** admissions@uswat.edu.pk\n- **Page:** https://uswat.edu.pk/directorate-of-admissions/\n- **Admission Office phone (as listed in the university Contact List):** 920809 (area code not stated)\n\n## Admission sections on the official page\nThe Directorate page has two admission sections: **Undergraduate** and **MS/MPhil & PhD**, plus \"Staff\" and \"Contact Us\" tabs. The content inside these tabs was **not rendered in the retrieved page**, so eligibility rules, merit criteria, program lists and entry-test requirements could not be extracted from the official site in this stage. See `13-source-registry/research-gaps.md`.\n\n## What a chatbot should say\nFor current eligibility, merit, deadlines and programs, direct users to https://uswat.edu.pk/directorate-of-admissions/ and the latest admission announcement, or to admissions@uswat.edu.pk.\n\n## Related official documents (discovered, not all analysed)\n- Admission Cancellation Form (PDF) - listed under Downloads > Students.\n- Credit Transfer Form (DOCX) - listed under Downloads > Students.\n- Master Additional Form and MS/MPhil/PhD Form 2019 - listed under Downloads > Students (2019 forms; potentially outdated).\n- UG Policy Fall 2023 (53rd Syndicate meeting) and Semester System Regulations for Undergraduate Degree Programs (Fall 2024 and onwards) - discovered but are scanned images, so their contents are not extracted. See `11-downloads-and-official-documents/document-index.md`.\n\n## Fee refund and fee adjustment rules (from the University Statutes 2025)\nSee `01-admissions/fee-structure.md`.\n\n## Sources\n\n1. Directorate of Admissions\n   - URL: https://uswat.edu.pk/directorate-of-admissions/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18\n2. Contact List\n   - URL: https://uswat.edu.pk/contact-list/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18\n3. Downloads\n   - URL: https://uswat.edu.pk/downloads/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18",
+      "approx_token_count": 281,
+      "source_keys": [
+        "admdir",
+        "contact",
+        "downloads"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/directorate-of-admissions/",
+        "https://uswat.edu.pk/contact-list/",
+        "https://uswat.edu.pk/downloads/"
+      ],
+      "verification_status": "verified",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": true,
+      "overlap_from_previous_approx_tokens": 0
+    },
+    {
+      "chunk_id": "fee-structure-001",
+      "document_id": "01-admissions__fee-structure",
+      "file_path": "01-admissions/fee-structure.md",
+      "title": "Fee Structure and Fee Rules",
+      "category": "Admissions",
+      "heading_path": [
+        "Fee Structure and Fee Rules",
+        "A. BS (4-year) and AD (2-year) programs for Affiliated Colleges"
+      ],
+      "chunk_index": 0,
+      "content": "# Fee Structure and Fee Rules\n\n> **Important scope note:** the only fee schedule that could be read is the Syndicate-approved *Revised Schedule of Fee* (reference UoS/Meetings/57-SYND/2024-15, uploaded around September 2024). It lists **registration, examination, certificate and administrative fees**. **Tuition and admission fees for individual programs were not found.** This schedule is **potentially outdated** for the current session (2026). Users should confirm with the university. Amounts are in Pakistani rupees (Rs.).\n\n## A. BS (4-year) and AD (2-year) programs for Affiliated Colleges\n| Category | Normal fee | Double fee | Triple fee |\n|---|---|---|---|\n| Registration Fee | 2,500 | - | - |\n| Full Semester / Repeat Semester | 2,800 (1,800 + 700 + 300) | 4,700 | 6,500 |\n| Single Paper / Course | 1,400 (400 + 700 + 300) | 1,900 | 2,300 |\n| Two Papers / Courses | 1,800 (800 + 700 + 300) | 2,700 | 3,500 |\n| Practical Fee | 600 per practical | | |\n| Thesis / Project / Internship Fee | 5,000 per student | | |\n\nNote in the document: after the last date for submitting the examination form with triple fee, the form is accepted 15 days before the examination starts, at double the triple fee.",
+      "approx_token_count": 212,
+      "source_keys": [
+        "fee",
+        "statutes",
+        "downloads"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/wp-content/uploads/2024/09/Revised-Schedule-of-fee-Approved-by-syndicate.pdf",
+        "https://uswat.edu.pk/wp-content/uploads/2026/07/PDF-Approved-Final-Statutes-2025-Searchable-1.pdf",
+        "https://uswat.edu.pk/downloads/"
+      ],
+      "verification_status": "potentially_outdated",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": true,
+      "overlap_from_previous_approx_tokens": 0
+    },
+    {
+      "chunk_id": "fee-structure-002",
+      "document_id": "01-admissions__fee-structure",
+      "file_path": "01-admissions/fee-structure.md",
+      "title": "Fee Structure and Fee Rules",
+      "category": "Admissions",
+      "heading_path": [
+        "B. DMC, migration, degree and other fees",
+        "C. Semester system fees (University of Swat and affiliated colleges)"
+      ],
+      "chunk_index": 1,
+      "content": "700 + 300) | 1,900 | 2,300 | | Two Papers / Courses | 1,800 (800 + 700 + 300) | 2,700 | 3,500 | | Practical Fee | 600 per practical | | | | Thesis / Project / Internship Fee | 5,000 per student | | | Note in the document: after the last date for submitting the examination form with triple fee, the form is accepted 15 days before the examination starts, at double the triple fee.\n\n## B. DMC, migration, degree and other fees\n| Item | Fee (Rs.) |\n|---|---|\n| DMC (Detailed Marks Certificate) - normal | 800 |\n| DMC - duplicate | 1,000 |\n| Provisional Certificate - normal (10 working days) | 700 |\n| Provisional Certificate - urgent (3 working days) | 1,200 |\n| English Proficiency Certificate - normal (10 working days) | 700 |\n| English Proficiency Certificate - urgent (3 working days) | 1,200 |\n| Migration Certificate - normal (10 working days) | 2,000 |\n| Migration Certificate - urgent (3 working days) | 3,000 |\n| Degree fee - normal/security (20 working days) | 3,500 |\n| Degree fee - urgent (10 working days) | 5,000 |\n| Degree fee - most urgent (5 working days) | 8,000 |\n| Degree fee - immediate (next working day afternoon) | 12,000 |\n| Duplicate degree - normal (20 working days) | 4,000 |\n| Duplicate degree - urgent (10 working days) | 6,000 |\n| Duplicate degree - most urgent (5 working days) | 10,000 |\n| Duplicate degree - immediate (next working day afternoon) | 15,000 |\n| Name correction | 2,000 |\n| Thesis evaluation / internship / research (per student) | 5,000 |\n| Subject change (Bachelor level) | 1,000 |\n| Optional subject change (Master level) | 2,000 |\n| Verification of DMC/Transcript (original/photocopy) | 700 |\n| Verification of Degree (original/photocopy) | 2,000 |\n| Verification of DMC/Transcript (photocopy along with original) | 300 |\n| Verification of Degree (photocopy along with original) | 500 |\n| Registration cancellation | 2,500 |\n| Re-totaling (per script) | 1,000 |\n| Appeal against UFM decision | 2,000 |\n| Discipline change (Master level) | 5,000 |\n| Postage + exam form | 300 |\n| Combined DMC | 800 |\n| Revised DMC | 800 |\n\n## C. Semester system fees (University of Swat and affiliated colleges)\n| Item | Fee (Rs.) |\n|---|---|\n| Result processing per student, affiliated colleges (fresh/repeat semester) | 1,000 |\n| Result processing per course, affiliated colleges (repeat, makeup, grade improvement, special chance exam, incomplete grade) | 500 |\n| Result processing per course, allied departments of main and sub campuses (same categories) | 1,200 |\n| Lab course, per lab | 600 |\n| Transcript (original) | 700 |\n| Transcript (duplicate) | 1,600 |\n| Incomplete transcript | 700 |\n| Semester freezing | 3,000 |\n| Re-totaling | 1,000 |\n| CMS fee | 300 |",
+      "approx_token_count": 503,
+      "source_keys": [
+        "fee",
+        "statutes",
+        "downloads"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/wp-content/uploads/2024/09/Revised-Schedule-of-fee-Approved-by-syndicate.pdf",
+        "https://uswat.edu.pk/wp-content/uploads/2026/07/PDF-Approved-Final-Statutes-2025-Searchable-1.pdf",
+        "https://uswat.edu.pk/downloads/"
+      ],
+      "verification_status": "potentially_outdated",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": true,
+      "overlap_from_previous_approx_tokens": 80
+    },
+    {
+      "chunk_id": "fee-structure-003",
+      "document_id": "01-admissions__fee-structure",
+      "file_path": "01-admissions/fee-structure.md",
+      "title": "Fee Structure and Fee Rules",
+      "category": "Admissions",
+      "heading_path": [
+        "Fee rules from the University of Swat Statutes, 2025 (Fees and other Miscellaneous Charges Statutes, pp. 32-34 of the PDF)",
+        "Payment slips",
+        "Other fee documents discovered but not analysed",
+        "Sources"
+      ],
+      "chunk_index": 2,
+      "content": "| | Result processing per course, affiliated colleges (repeat, makeup, grade improvement, special chance exam, incomplete grade) | 500 | | Result processing per course, allied departments of main and sub campuses (same categories) | 1,200 | | Lab course, per lab | 600 | | Transcript (original) | 700 | | Transcript (duplicate) | 1,600 | | Incomplete transcript | 700 | | Semester freezing | 3,000 | | Re-totaling | 1,000 | | CMS fee | 300 |\n\n## Fee rules from the University of Swat Statutes, 2025 (Fees and other Miscellaneous Charges Statutes, pp. 32-34 of the PDF)\n- **Fee categories (other than hostel fees):** admission fee, tuition fee, medical fee, examination fee, university registration fee, contributions to specified educational, social and recreational funds, and other fees set from time to time. The university may also charge magazine fee, Students' Welfare Fund fee, identity card fee and others decided by the Syndicate.\n- **Who sets fees:** the Syndicate, on the recommendations of the Academic Council and the Finance and Planning Committee.\n- **Annual increase:** the Syndicate may make a 10% annual increase in fees and charges, or increase/decrease the rate. An increase applies to **newly admitted students**; already-admitted students continue paying the fee in force at first admission unless the Syndicate decides otherwise in a particular case with written reasons.\n- **Refund:** students who cancel or withdraw may be entitled to a tuition fee refund on grounds such as personal emergencies, health reasons, care or medical reasons for family members, legal/immigration matters, delay in admission in other universities, and other cases decided case by case. A student required to leave because entry requirements were not met after results are announced is eligible for a refund. Applications need the prescribed form and proof of payment. The Syndicate may declare any fee non-refundable. A student expelled in disciplinary proceedings gets no refund except the refundable security deposit.\n- **Fee adjustment on a second admission:** if a student is admitted to another discipline, program or department within 10 days of the first admission, fees already deposited transfer to the new department; any shortfall is paid and any excess refunded.\n\n## Payment slips\nBank deposit slips (HBL) for the Main Campus and Women Campus and a General Fee Slip 2024 are listed under Downloads (see `11-downloads-and-official-documents/forms.md`). Digital payment information: https://uswat.edu.pk/2025/07/digit/ (page not retrieved).\n\n## Other fee documents discovered but not analysed\n- Semester System Fee Structure (2020), Revised Fee Notifications (2023), 50th Syndicate Revised Fee Final Notification (2023). These are **historical** and likely superseded. Their contents were not read. Because several schedules exist, the relationship between them is **unverified**; the 2024 schedule above is the most recent fee schedule listed on the Downloads page.\n\n## Sources\n\n1. Revised Schedule of fee Approved by syndicate (Ref. No.UoS/Meetings/57-SYND/2024-15)\n   - URL: https://uswat.edu.pk/wp-content/uploads/2024/09/Revised-Schedule-of-fee-Approved-by-syndicate.pdf\n   - Source Type: Official University PDF\n   - Document Date: Not Available\n   - Accessed Date: 2026-11-18\n   - Note: Upload path indicates September 2024; document itself carries no explicit date in the extracted text.\n2. The University of Swat Statutes, 2025 (368 pages)\n   - URL: https://uswat.edu.pk/wp-content/uploads/2026/07/PDF-Approved-Final-Statutes-2025-Searchable-1.pdf\n   - Source Type: Official University PDF\n   - Document Date: Not Available\n   - Accessed Date: 2026-11-18\n   - Note: Upload path indicates July 2026. Only the first ~64 of 368 pages were analysed.\n3. Downloads\n   - URL: https://uswat.edu.pk/downloads/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18",
+      "approx_token_count": 563,
+      "source_keys": [
+        "fee",
+        "statutes",
+        "downloads"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/wp-content/uploads/2024/09/Revised-Schedule-of-fee-Approved-by-syndicate.pdf",
+        "https://uswat.edu.pk/wp-content/uploads/2026/07/PDF-Approved-Final-Statutes-2025-Searchable-1.pdf",
+        "https://uswat.edu.pk/downloads/"
+      ],
+      "verification_status": "potentially_outdated",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": true,
+      "overlap_from_previous_approx_tokens": 80
+    },
+    {
+      "chunk_id": "scholarships-001",
+      "document_id": "01-admissions__scholarships",
+      "file_path": "01-admissions/scholarships.md",
+      "title": "Scholarships and Financial Aid",
+      "category": "Admissions",
+      "heading_path": [
+        "Scholarships and Financial Aid",
+        "Current announcement",
+        "Scholarship and aid forms listed on the Downloads page",
+        "Related offices and pages",
+        "Gaps",
+        "Sources"
+      ],
+      "chunk_index": 0,
+      "content": "# Scholarships and Financial Aid\n\n## Current announcement\n- **KPEF \"Merit-cum-Inaffordability\" Scholarship Scheme 2025-26** - announced on the university website on **2026-11-06**. The page contains a notice image and an external \"Click here to apply\" link: https://ef.kp.gov.pk/scholarship/merit_cum_inaffordability (Khyber Pakhtunkhwa Education Endowment Fund portal). The scholarship details (eligibility, amounts, deadline) are inside the image and were **not extracted**. Users must read the notice on the university page or the KPEF portal. KPEF is an external body; the scheme terms are not University of Swat statements.\n\n## Scholarship and aid forms listed on the Downloads page\n| Form | Note |\n|---|---|\n| HEC Need Based Scholarship application form | Uploaded 2024 |\n| Student Details and Deed of Agreement - Need Based Scholarship | Older forms (uploaded 2019) |\n| Ehsaas Undergraduate Scholarship (form, student details, deed of agreement) | Uploaded 2019; programme status unverified |\n| Pakistan Baitul Maal (PBM) stipend application forms | 2019 and Spring 2021 versions |\n| Provincial Zakat Administration scholarship / educational stipend form | Uploaded 2022 |\n\nThese are **historical or potentially outdated**; always confirm the current scheme before applying.\n\n## Related offices and pages\n- University Advancement & Financial Aid Office: https://uswat.edu.pk/university-advancement-financial-aid-office/ (page not retrieved).\n- Students Loan Schemes page: https://uswat.edu.pk/2026/10/students-loan-shemes/ (page not retrieved).\n- Student Welfare Fund Policy (51st Syndicate meeting) and Student Welfare Funds (53rd Syndicate meeting): listed under Downloads; scanned/unread.\n\n## Gaps\nUniversity-funded scholarships, fee waivers and merit scholarships were not found in the retrieved sources.\n\n## Sources\n\n1. KPEF \"MERIT-CUM-INAFFORDABILITY\" SCHOLARSHIP SCHEME 2025-26\n   - URL: https://uswat.edu.pk/2026/11/kpef-merit-cum-inaffordability-scholarship-scheme-2025-26/\n   - Source Type: Official University Webpage\n   - Publication Date: 2026-11-06\n   - Accessed Date: 2026-11-18\n2. Downloads\n   - URL: https://uswat.edu.pk/downloads/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18\n3. UNIVERSITY OF SWAT - Aspiring for Quality Education with Relevance (Homepage)\n   - URL: https://uswat.edu.pk/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18",
+      "approx_token_count": 321,
+      "source_keys": [
+        "kpef",
+        "downloads",
+        "home"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/2026/11/kpef-merit-cum-inaffordability-scholarship-scheme-2025-26/",
+        "https://uswat.edu.pk/downloads/",
+        "https://uswat.edu.pk/"
+      ],
+      "verification_status": "verified",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": true,
+      "overlap_from_previous_approx_tokens": 0
+    },
+    {
+      "chunk_id": "academic-calendar-001",
+      "document_id": "02-academics__academic-calendar",
+      "file_path": "02-academics/academic-calendar.md",
+      "title": "Academic Calendar",
+      "category": "Academics",
+      "heading_path": [
+        "Academic Calendar",
+        "What the official page lists (as of 2026-11-18)",
+        "Key finding",
+        "Guidance",
+        "What is confirmed about the academic year",
+        "Sources"
+      ],
+      "chunk_index": 0,
+      "content": "# Academic Calendar\n\n## What the official page lists (as of 2026-11-18)\n| Calendar document | Link | Status |\n|---|---|---|\n| 2024 Academic Calendar (PDF) | https://uswat.edu.pk/wp-content/uploads/2023/11/2024-Academic-Calendar-1.pdf | **Potentially outdated** - the newest calendar listed is for 2024 |\n| Revised Academic Calendar for A.D Program Semester-II & IV Spring 2023 (image) | https://uswat.edu.pk/wp-content/uploads/2023/07/Acad-cal-Aff-colleges.jpg | **Historical** |\n| Tentative Academic Calendar (Fall 2023, Spring 2023), published 04-07-2023 (PDF) | https://uswat.edu.pk/wp-content/uploads/2023/07/Academic-Calendar-2023-Revised-04-07-2023.pdf | **Historical** |\n\n## Key finding\nNo academic calendar for 2025 or 2026 is posted on the Academic Calendar page. The contents of the three calendar files were **not analysed** in this stage, so no semester start/end dates are recorded here.\n\n## Guidance\nDo not give semester dates from older calendars as current. Direct users to https://uswat.edu.pk/academic-calendar/ and department notices.\n\n## What is confirmed about the academic year\nThe University Statutes 2025 define the academic year as two semesters, **Fall and Spring**.\n\n## Sources\n\n1. Academic Calendar\n   - URL: https://uswat.edu.pk/academic-calendar/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18",
+      "approx_token_count": 176,
+      "source_keys": [
+        "calendar"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/academic-calendar/"
+      ],
+      "verification_status": "potentially_outdated",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": true,
+      "overlap_from_previous_approx_tokens": 0
+    },
+    {
+      "chunk_id": "departments-001",
+      "document_id": "02-academics__departments",
+      "file_path": "02-academics/departments.md",
+      "title": "Departments",
+      "category": "Academics",
+      "heading_path": [
+        "Departments (as listed in website navigation, 2026-11-18)"
+      ],
+      "chunk_index": 0,
+      "content": "# Departments (as listed in website navigation, 2026-11-18)\n\nTotal teaching departments listed: **24**, grouped under four faculty headings, in addition to the Faculty of Allied Health Sciences and the Hunerkada.\n\n| # | Department | Faculty grouping | Official page |\n|---|---|---|---|\n| 1 | Department of English and Foreign Languages | Religious, Languages, Humanities and Legal Studies | https://uswat.edu.pk/department-of-english-and-foreign-languages/ |\n| 2 | Department of Islamic and Arabic Studies | Religious, Languages, Humanities and Legal Studies | https://uswat.edu.pk/department-of-islamic-and-arabic-studies/ |\n| 3 | Department of Pashto and Local Languages | Religious, Languages, Humanities and Legal Studies | https://uswat.edu.pk/department-of-pashto/ |\n| 4 | Department of Law & Shariah | Religious, Languages, Humanities and Legal Studies | https://uswat.edu.pk/department-of-law-sharia/ |\n| 5 | Department of Urdu | Religious, Languages, Humanities and Legal Studies | https://uswat.edu.pk/department-of-urdu/ |\n| 6 | Department of Physics | Physical, Numerical and Computational Sciences | https://uswat.edu.pk/department_of_physics/ |\n| 7 | Department of Computer and Software Technology | Physical, Numerical and Computational Sciences | https://uswat.edu.pk/department-of-computer-and-software-technology/ |\n| 8 | Department of Mathematics and Statistics | Physical, Numerical and Computational Sciences | https://uswat.edu.pk/department-of-mathematics-and-statistics/ |\n| 9 | Department of Geology | Physical, Numerical and Computational Sciences | https://uswat.edu.pk/department_of_geology/ |\n| 10 | Department of Economics and Development Studies | Management, Art and Social Sciences | https://uswat.edu.pk/department-of-economics-and-development-studies/ |\n| 11 | Department of Archaeology | Management, Art and Social Sciences | https://uswat.edu.pk/department-of-archaeology/ |\n| 12 | Department of Tourism and Hospitality | Management, Art and Social Sciences | https://uswat.edu.pk/department-of-tourism-and-hospitality/ |\n| 13 | Department of Management & Commerce | Management, Art and Social Sciences | https://uswat.edu.pk/department-of-management-commerce/ |\n| 14 | Department of Pakistan Studies | Management, Art and Social Sciences | https://uswat.edu.pk/department_of_pakistan_studies/ |\n| 15 | Department of Media and Communication Studies | Management, Art and Social Sciences | https://uswat.edu.pk/department-of-media-and-communication-studies/ |\n| 16 | Department of Social and Gender Studies | Management, Art and Social Sciences | https://uswat.edu.pk/department-of-social-and-gender-studies/ |\n| 17 | Department of Psychological Studies | Management, Art and Social Sciences | https://uswat.edu.pk/department-of-psychological-studies/ |\n| 18 | Department of Education and Staff Training | Management, Art and Social Sciences | https://uswat.edu.pk/department_of_education_and_staff_training/ |\n| 19 | Department of Environmental Sciences | Biological and Chemical Sciences | https://uswat.edu.pk/department-of-environmental-sciences/ |\n| 20 | Department of Chemistry | Biological and Chemical Sciences | https://uswat.edu.pk/department-of-chemistry/ |\n| 21 | Department of Zoology | Biological and Chemical Sciences | https://uswat.edu.pk/department-of-zoology/ |\n| 22 | Department of Agricultural Sciences and Forestry | Biological and Chemical Sciences | https://uswat.edu.pk/department-of-agricultural-sciences-and-forestry/ |\n| 23 | Department of Botany | Biological and Chemical Sciences | https://uswat.edu.pk/department-of-botany/ |\n| 24 | Department of Biotechnology, Genetics, Forensic and Microbiology | Biological and Chemical Sciences | https://uswat.edu.pk/department-of-biotechnology-genetics-forensic-and-microbiology/ |",
+      "approx_token_count": 443,
+      "source_keys": [
+        "home",
+        "contact"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/",
+        "https://uswat.edu.pk/contact-list/"
+      ],
+      "verification_status": "verified",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": false,
+      "overlap_from_previous_approx_tokens": 0
+    },
+    {
+      "chunk_id": "departments-002",
+      "document_id": "02-academics__departments",
+      "file_path": "02-academics/departments.md",
+      "title": "Departments",
+      "category": "Academics",
+      "heading_path": [
+        "Naming differences between sources",
+        "Additional campus and faculty listings",
+        "Counting caution",
+        "Not collected",
+        "Sources"
+      ],
+      "chunk_index": 1,
+      "content": "| https://uswat.edu.pk/department-of-environmental-sciences/ | | 20 | Department of Chemistry | Biological and Chemical Sciences | https://uswat.edu.pk/department-of-chemistry/ | | 21 | Department of Zoology | Biological and Chemical Sciences | https://uswat.edu.pk/department-of-zoology/ | | 22 | Department of Agricultural Sciences and Forestry | Biological and Chemical Sciences | https://uswat.edu.pk/department-of-agricultural-sciences-and-forestry/ | | 23 | Department of Botany | Biological and Chemical Sciences | https://uswat.edu.pk/department-of-botany/ | | 24 | Department of Biotechnology, Genetics, Forensic and Microbiology | Biological and Chemical Sciences | https://uswat.edu.pk/department-of-biotechnology-genetics-forensic-and-microbiology/ |\n\n## Naming differences between sources\nThe university Contact List uses some different unit names from the navigation menu. Treat them as possibly the same unit, but this is **unverified**:\n- Navigation: Department of Psychological Studies / Contact List: Department of Psychological Sciences\n- Navigation: Department of Chemistry / Contact List: Institute of Chemical Sciences\n- Navigation: Department of Physics / Contact List: Department of Physical and Material Sciences\n- Navigation: Department of Management & Commerce / Contact List: Center for Management and Commerce\n- Navigation: Department of Tourism and Hospitality / Contact List: ICHTHM (Tourism Department)\n- Contact List also names: Centre for Caucasian, Asian, Chinese and Pakistan Studies; Center for Plant Sciences (Botany); Center for Biotechnology & Microbiology; Center for Animal Sciences and Fisheries; Department of Forensic Sciences; Institute of Agriculture Sciences and Forestry.\n\n## Additional campus and faculty listings\n\nThe Main Campus page separately lists teaching departments by academic block. The Women Campus page lists six departments, including Home Economics. The Faculty of Allied Health Sciences page lists four constituent departments and four degree programmes. These campus/faculty listings are recorded separately because they do not map one-to-one onto the 24 department entries in the main navigation.\n\nSee:\n- `00-university-overview/campus-status.md`\n- `02-academics/faculty-of-allied-health-sciences.md`\n\n## Counting caution\n\nDo not tell users that the university has exactly 24 departments without qualification. The current navigation lists 24 teaching department entries under four faculty headings, while the About page's historical text says the number grew to 27, and separate campus/faculty pages publish additional or differently grouped units. These may reflect different dates or administrative groupings.\n\n## Not collected\nPer-department overviews, programs, Heads of Department, faculty members, locations and research areas were not retrieved (department pages were not opened in this stage). The `department-profiles/` and `faculty-profiles/` folders were intentionally not created because they would be empty.\n\n## Sources\n\n1. UNIVERSITY OF SWAT - Aspiring for Quality Education with Relevance (Homepage)\n   - URL: https://uswat.edu.pk/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18\n2. Contact List\n   - URL: https://uswat.edu.pk/contact-list/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18",
+      "approx_token_count": 434,
+      "source_keys": [
+        "home",
+        "contact"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/",
+        "https://uswat.edu.pk/contact-list/"
+      ],
+      "verification_status": "verified",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": false,
+      "overlap_from_previous_approx_tokens": 80
+    },
+    {
+      "chunk_id": "faculties-001",
+      "document_id": "02-academics__faculties",
+      "file_path": "02-academics/faculties.md",
+      "title": "Faculties",
+      "category": "Academics",
+      "heading_path": [
+        "Faculties",
+        "Religious, Languages, Humanities and Legal Studies",
+        "Physical, Numerical and Computational Sciences",
+        "Management, Art and Social Sciences",
+        "Biological and Chemical Sciences",
+        "Faculty of Allied Health Sciences",
+        "Hunerkada - Center of Excellence for Art and Culture",
+        "Sources"
+      ],
+      "chunk_index": 0,
+      "content": "# Faculties\n\nThe names below are the labels used in the official website navigation on 2026-11-18. The formal statutory names of faculties were not checked against the Statutes' faculty-establishment chapter (pages 191 onward of the Statutes PDF, not analysed).\n\n## Religious, Languages, Humanities and Legal Studies\nDepartments (5):\n- Department of English and Foreign Languages\n- Department of Islamic and Arabic Studies\n- Department of Pashto and Local Languages\n- Department of Law & Shariah\n- Department of Urdu\n\n## Physical, Numerical and Computational Sciences\nDepartments (4):\n- Department of Physics\n- Department of Computer and Software Technology\n- Department of Mathematics and Statistics\n- Department of Geology\n\n## Management, Art and Social Sciences\nDepartments (9):\n- Department of Economics and Development Studies\n- Department of Archaeology\n- Department of Tourism and Hospitality\n- Department of Management & Commerce\n- Department of Pakistan Studies\n- Department of Media and Communication Studies\n- Department of Social and Gender Studies\n- Department of Psychological Studies\n- Department of Education and Staff Training\n\n## Biological and Chemical Sciences\nDepartments (6):\n- Department of Environmental Sciences\n- Department of Chemistry\n- Department of Zoology\n- Department of Agricultural Sciences and Forestry\n- Department of Botany\n- Department of Biotechnology, Genetics, Forensic and Microbiology\n\n## Faculty of Allied Health Sciences\nLinked from the navigation at https://uswat.edu.pk/faculty/ . The page was not retrieved, so its departments and programs are not recorded.\n\n## Hunerkada - Center of Excellence for Art and Culture\nListed in the Faculty menu: https://uswat.edu.pk/hunerkada-center-for-excellence/ . Telephone (Contact List): 920876. The page was not retrieved.\n\n## Sources\n\n1. UNIVERSITY OF SWAT - Aspiring for Quality Education with Relevance (Homepage)\n   - URL: https://uswat.edu.pk/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18\n2. Contact List\n   - URL: https://uswat.edu.pk/contact-list/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18",
+      "approx_token_count": 314,
+      "source_keys": [
+        "home",
+        "contact"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/",
+        "https://uswat.edu.pk/contact-list/"
+      ],
+      "verification_status": "verified",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": false,
+      "overlap_from_previous_approx_tokens": 0
+    },
+    {
+      "chunk_id": "faculty-of-allied-health-sciences-001",
+      "document_id": "02-academics__faculty-of-allied-health-sciences",
+      "file_path": "02-academics/faculty-of-allied-health-sciences.md",
+      "title": "Faculty of Allied Health Sciences",
+      "category": "Academics",
+      "heading_path": [
+        "Faculty of Allied Health Sciences",
+        "Departments listed by the faculty page",
+        "Degree programmes listed by the faculty page",
+        "Faculty contact published on the page",
+        "Sources"
+      ],
+      "chunk_index": 0,
+      "content": "# Faculty of Allied Health Sciences\n\nThe University of Swat's Faculty of Allied Health Sciences page states that establishment of the faculty was approved in the 9th meeting of the University Senate.\n\n## Departments listed by the faculty page\n\n1. Department for Medical Technologies\n2. Department of Nursing and Public Health\n3. Department for Pharmaceutical and Rehabilitation Sciences\n4. Department for Food and Nutrition Sciences\n\n## Degree programmes listed by the faculty page\n\n- BS Medical Laboratory Technology (MLT)\n- BS Dental Technology\n- Doctor of Physical Therapy (DPT)\n- BS Radiography and Imaging Technology\n\n**Important:** This is a list published on the Faculty of Allied Health Sciences page, not a guarantee that every programme is accepting applications in the current admission cycle. Check the current admission advertisement/prospectus before advising applicants.\n\n## Faculty contact published on the page\n\n- Focal Person and Director: Dr. Ali Akbar\n- Email: `aliakbar@uswat.edu.pk`\n- Additional email: `cprs@uswat.edu.pk`\n- Office phone: `0946 920877`\n\nThe page also lists Dr. Nasib Zaman and Dr. Zafar Ali as faculty members. Names and roles should be rechecked against the live page before use in time-sensitive answers.\n\n## Sources\n\n1. Faculty of Allied Health Sciences – University of Swat\n   - URL: https://uswat.edu.pk/faculty/\n   - Source Type: Official University Webpage\n   - Accessed Date: 2026-11-18\n2. Main Campus – University of Swat\n   - URL: https://uswat.edu.pk/maincampus/\n   - Source Type: Official University Webpage\n   - Accessed Date: 2026-11-18",
+      "approx_token_count": 232,
+      "source_keys": [
+        "alliedhealth",
+        "maincampus"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/faculty/",
+        "https://uswat.edu.pk/maincampus/"
+      ],
+      "verification_status": "verified",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": false,
+      "overlap_from_previous_approx_tokens": 0
+    },
+    {
+      "chunk_id": "semester-system-001",
+      "document_id": "02-academics__semester-system",
+      "file_path": "02-academics/semester-system.md",
+      "title": "Semester System",
+      "category": "Academics",
+      "heading_path": [
+        "Semester System",
+        "Confirmed",
+        "Official semester regulation documents discovered",
+        "Related fees (semester freezing, repeat courses, result processing)",
+        "Sources"
+      ],
+      "chunk_index": 0,
+      "content": "# Semester System\n\n## Confirmed\n- The Statutes 2025 define an \"academic year\" as a period of two semesters: **Fall Semester and Spring Semester**.\n- Statutes on teacher recruitment treat semester-system results using a CGPA scale out of 4.00, and say a CGPA of 3.00 or greater out of 4.00 (or Grade B or greater) is treated as equivalent to a first division for those purposes. This is about staff recruitment eligibility, not student progression.\n\n## Official semester regulation documents discovered\n| Document | Syndicate meeting | Readable? |\n|---|---|---|\n| University of Swat Semester Regulations for Undergraduate | 61st Meeting | No - scanned image, no text layer |\n| Semester System Regulations for Undergraduate Degree Program (Fall 2024 & Onwards) | not stated | No - scanned image, no text layer |\n| UoS Semester System Regulations (2023) | 51st Meeting | No - scanned image, no text layer |\n| UG Policy Fall 2023 | 53rd Meeting | Not attempted |\n| M.Phil/Ph.D Regulations | - | Not attempted; the file name indicates it is the **University of Peshawar** M.Phil/Ph.D Regulations hosted on the Swat site |\n\nBecause the regulations could not be read, details such as credit hours, attendance, grading scale, repeat/improvement rules and CGPA requirements are **not recorded**. They need OCR of the PDFs (see `13-source-registry/research-gaps.md`).\n\n## Related fees (semester freezing, repeat courses, result processing)\nSee `01-admissions/fee-structure.md`.\n\n## Sources\n\n1. The University of Swat Statutes, 2025 (368 pages)\n   - URL: https://uswat.edu.pk/wp-content/uploads/2026/07/PDF-Approved-Final-Statutes-2025-Searchable-1.pdf\n   - Source Type: Official University PDF\n   - Document Date: Not Available\n   - Accessed Date: 2026-11-18\n   - Note: Upload path indicates July 2026. Only the first ~64 of 368 pages were analysed.\n2. Downloads\n   - URL: https://uswat.edu.pk/downloads/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18",
+      "approx_token_count": 297,
+      "source_keys": [
+        "statutes",
+        "downloads"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/wp-content/uploads/2026/07/PDF-Approved-Final-Statutes-2025-Searchable-1.pdf",
+        "https://uswat.edu.pk/downloads/"
+      ],
+      "verification_status": "verified",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": false,
+      "overlap_from_previous_approx_tokens": 0
+    },
+    {
+      "chunk_id": "department-directory-001",
+      "document_id": "03-departments-and-faculty__department-directory",
+      "file_path": "03-departments-and-faculty/department-directory.md",
+      "title": "Department Directory",
+      "category": "Departments and Faculty",
+      "heading_path": [
+        "Department Directory (telephone numbers)",
+        "Sources"
+      ],
+      "chunk_index": 0,
+      "content": "# Department Directory (telephone numbers)\n\nTelephone numbers are copied from the university Contact List as published, **without an area code**. Names are as in the Contact List (see `02-academics/departments.md` for naming differences).\n\n| Unit | Tel. no. |\n|---|---|\n| Girls Hostel | 920818-19 |\n| Guest House | 920820 |\n| Canteen (Cafeteria) | 920823 |\n| Center for Management and Commerce | 920826 |\n| Centre for Caucasian, Asian, Chinese and Pakistan Studies | 920827 |\n| Department of Social and Gender Studies | 920829 |\n| Center for Plant Sciences (Botany) | 920835 |\n| Center for Biotechnology & Microbiology | 920836 |\n| Department of Psychological Sciences | 920837 |\n| Center for Animal Sciences and Fisheries | 920838 |\n| Department of Forensic Sciences | 920839 |\n| Institute of Agriculture Sciences and Forestry | 920840 |\n| Department of Economics & Development Studies | 920841 |\n| Department of Mathematics and Statistics | 920842 |\n| Dept. of Computer and Software Technology (HOD Office) | 920844 |\n| Dept. of Computer and Software Technology (Senior Clerk) | 920845 |\n| Institute of Chemical Sciences | 920846 (Prof. Dr. Najeeb: 920873, as listed) |\n| Department of Environmental Science | 920872 (Prof. Dr. Qasim: 920847, as listed) |\n| Department of Physical and Material Sciences | 920848 |\n| Department of Islamic and Arabic Studies | 920849 |\n| Department of Law and Shariah | 920850 |\n| ICHTHM (Tourism Department) | 920851 |\n| HUNERKADA | 920876 |\n| Center for Education and Staff Training | 730533 |\n\nOfficial department page links are in `02-academics/departments.md`. Faculty directory: **not collected** (no faculty lists were retrieved).\n\n## Sources\n\n1. Contact List\n   - URL: https://uswat.edu.pk/contact-list/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18\n2. UNIVERSITY OF SWAT - Aspiring for Quality Education with Relevance (Homepage)\n   - URL: https://uswat.edu.pk/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18",
+      "approx_token_count": 333,
+      "source_keys": [
+        "contact",
+        "home"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/contact-list/",
+        "https://uswat.edu.pk/"
+      ],
+      "verification_status": "verified",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": false,
+      "overlap_from_previous_approx_tokens": 0
+    },
+    {
+      "chunk_id": "official-digital-services-001",
+      "document_id": "04-student-services__official-digital-services",
+      "file_path": "04-student-services/official-digital-services.md",
+      "title": "Official Digital Services and University Portals",
+      "category": "Student Services",
+      "heading_path": [
+        "Official Digital Services and University Portals",
+        "Campus Management System (CMS)",
+        "Examination portal",
+        "Other online services listed by the university",
+        "Privacy and chatbot handling",
+        "Sources"
+      ],
+      "chunk_index": 0,
+      "content": "# Official Digital Services and University Portals\n\nThe University of Swat website links to several digital services. Some services require an account and authentication.\n\n## Campus Management System (CMS)\n\nOfficial portal: https://cms1.uswat.edu.pk/\n\nThe publicly visible CMS landing page lists these service areas:\n- Admission Management System\n- Enrollment and Registration Management System\n- Student Portal\n- Faculty Portal\n- Hostel Management System\n- Examinations Management System\n- Scholarship Management System\n- Fee Management System\n- Alumni Management System\n\nThe portal provides registration for new admission applicants and login for existing staff, faculty, students and applicants.\n\n## Examination portal\n\nThe university's website links to the examination portal:\n\nhttps://exam.uswat.edu.pk/\n\nThe portal hosts examination-related pages and downloadable forms. Use the live portal for current notices, forms and examination information.\n\n## Other online services listed by the university\n\nThe official website navigation also lists:\n- e-Office\n- Office 365\n- Digital Transformation of Payment\n- Student Loan Schemes\n- Digital Library\n- Pakistan Qualification Register (PQR)\n- M-Varsities\n\nThese names are a directory of services, not proof that every service is currently operational or publicly accessible.\n\n## Privacy and chatbot handling\n\n- The public chatbot may explain what a portal is for and provide its official link.\n- The chatbot must not ask users to provide passwords, CNICs, roll numbers, examination credentials or other sensitive identifiers in ordinary chat.\n- Do not attempt to retrieve private records from CMS or examination systems without an approved university integration and appropriate authentication.\n- Do not imply that the chatbot can access a student's portal account unless such an integration has been formally implemented and authorized.\n\n## Sources\n\n1. University of Swat – Official Website\n   - URL: https://uswat.edu.pk/\n   - Source Type: Official University Website\n   - Accessed Date: 2026-11-18\n2. University of Swat CMS\n   - URL: https://cms1.uswat.edu.pk/\n   - Source Type: Official University Portal\n   - Accessed Date: 2026-11-18\n3. Campus Management System – University of Swat\n   - URL: https://uswat.edu.pk/campus-management-system-uswat/\n   - Source Type: Official University Webpage\n   - Accessed Date: 2026-11-18\n4. University of Swat Examination Portal\n   - URL: https://exam.uswat.edu.pk/\n   - Source Type: Official University Portal\n   - Accessed Date: 2026-11-18",
+      "approx_token_count": 349,
+      "source_keys": [
+        "home",
+        "cms"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/",
+        "https://cms1.uswat.edu.pk/",
+        "https://uswat.edu.pk/campus-management-system-uswat/",
+        "https://exam.uswat.edu.pk/"
+      ],
+      "verification_status": "verified",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": false,
+      "overlap_from_previous_approx_tokens": 0
+    },
+    {
+      "chunk_id": "student-services-overview-001",
+      "document_id": "04-student-services__student-services-overview",
+      "file_path": "04-student-services/student-services-overview.md",
+      "title": "Student Services Overview",
+      "category": "Student Services",
+      "heading_path": [
+        "Student Services Overview",
+        "Online services listed on the homepage menu",
+        "Student-facing offices and pages (links only)",
+        "Facilities contact numbers (Contact List, no area code stated)",
+        "Student forms listed under Downloads",
+        "Hostels, library services, transport",
+        "Sources",
+        "Verified digital service links"
+      ],
+      "chunk_index": 0,
+      "content": "# Student Services Overview\n\n> The portals below were **discovered through official links but not opened** in this research stage (no login pages were accessed). Their function is described only as far as the link labels and listed forms indicate.\n\n## Online services listed on the homepage menu\n| Service | Link | Notes |\n|---|---|---|\n| Campus Management System (CMS) | http://cms1.uswat.edu.pk/ ; info page https://uswat.edu.pk/campus-management-system-uswat/ | Student/faculty portal; requires login; not accessed |\n| Examination portal | http://exam.uswat.edu.pk/ | Not accessed |\n| e-Office | https://uswat.edu.pk/e-office/ | Not accessed |\n| Office 365 | https://uswat.edu.pk/office-365/ | Not accessed |\n| Digital Transformation of Payment | https://uswat.edu.pk/2025/07/digit/ | Not retrieved |\n| Students Loan Schemes | https://uswat.edu.pk/2026/10/students-loan-shemes/ | Not retrieved |\n| Digital Library (HEC) | http://www.digitallibrary.edu.pk/uniofswat.html | External HEC service; not accessed |\n| Pakistan Qualification Register (PQR) | https://uswat.edu.pk/pqr/ | Not retrieved |\n| SUJRIS (journal site) | https://sujris.uswat.edu.pk/ | Not accessed |\n| Campus TV (YouTube) | https://www.youtube.com/@Campus_Tv_UoS | Not accessed |\n\n## Student-facing offices and pages (links only)\nCentral Library (https://uswat.edu.pk/central-library-office/), Proctorial Board (https://uswat.edu.pk/proctorial-board/), Provost Office (https://uswat.edu.pk/provost-office/), University Advancement & Financial Aid Office, Alumni Association UOSAA (https://uswat.edu.pk/alumni/), Youth Development Center \"YDC\" (https://uswat.edu.pk/kamyab-jawan-markaz/), Directorate of Sports (https://uswat.edu.pk/directorate-of-sports/), Media Cell (https://uswat.edu.pk/press-release/). None were retrieved.\n\n## Facilities contact numbers (Contact List, no area code stated)\nGirls Hostel 920818-19; Guest House 920820; Canteen (Cafeteria) 920823.\n\n## Student forms listed under Downloads\nCredit Transfer Form, Admission Cancellation Form, Transport Form (uploaded 2025-10), Alumni/convocation registration form (uploaded 2025-07), CMS Result Revision Proforma (uploaded 2025-12), Students Societies document. See `11-downloads-and-official-documents/forms.md`.\n\n## Hostels, library services, transport\nDetailed hostel rules, fees, library services and transport routes were **not found** in the retrieved sources. A Library Rules document (57th Syndicate meeting) is listed on Downloads but was not read. See `13-source-registry/research-gaps.md`.\n\n## Sources\n\n1. UNIVERSITY OF SWAT - Aspiring for Quality Education with Relevance (Homepage)\n   - URL: https://uswat.edu.pk/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18\n2. Contact List\n   - URL: https://uswat.edu.pk/contact-list/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18\n3. Downloads\n   - URL: https://uswat.edu.pk/downloads/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18\n\n## Verified digital service links\n\nThe official university website and CMS landing page list digital services including admissions, student and faculty portals, hostel management, examinations, scholarships, fee management and alumni management. See `04-student-services/official-digital-services.md` for the service list, links and privacy restrictions.",
+      "approx_token_count": 410,
+      "source_keys": [
+        "home",
+        "contact",
+        "downloads"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/",
+        "https://uswat.edu.pk/contact-list/",
+        "https://uswat.edu.pk/downloads/"
+      ],
+      "verification_status": "verified",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": false,
+      "overlap_from_previous_approx_tokens": 0
+    },
+    {
+      "chunk_id": "contact-directory-001",
+      "document_id": "05-administration__contact-directory",
+      "file_path": "05-administration/contact-directory.md",
+      "title": "Administrative Contact Directory",
+      "category": "Administration",
+      "heading_path": [
+        "Administrative Contact Directory",
+        "Sources"
+      ],
+      "chunk_index": 0,
+      "content": "# Administrative Contact Directory\n\nTelephone numbers are copied from the official Contact List as published. **No area code is stated** by the source.\n\n| Office | Tel. no. |\n|---|---|\n| VC Office | 730510 |\n| PS to VC Office | 920812 |\n| PS to Registrar Office | 920814 |\n| Meeting Section (Registrar office) | 920859 |\n| Assistant Registrar (Litigation Office) | 920854 |\n| Treasurer office | 920857 |\n| Admission Office | 920809 |\n| Director Works | 730505 |\n| Director IT | 920810 |\n| Store office | 920815 |\n| Controller of Examinations | 920831 |\n| Examination Section (Window) | 920856 |\n| Exam Conduct Section | 920834 |\n| Women Campus | 920867-68 |\n| Center for Education and Staff Training | 730533 |\n\nOther contacts: Director Admissions email admissions@uswat.edu.pk; Web Administrator webmaster@uswat.edu.pk. Row 3 is absent in the source table numbering; no office was omitted by this knowledge base.\n\n## Sources\n\n1. Contact List\n   - URL: https://uswat.edu.pk/contact-list/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18\n2. UNIVERSITY OF SWAT - Aspiring for Quality Education with Relevance (Homepage)\n   - URL: https://uswat.edu.pk/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18",
+      "approx_token_count": 214,
+      "source_keys": [
+        "contact",
+        "home"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/contact-list/",
+        "https://uswat.edu.pk/"
+      ],
+      "verification_status": "verified",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": false,
+      "overlap_from_previous_approx_tokens": 0
+    },
+    {
+      "chunk_id": "university-offices-001",
+      "document_id": "05-administration__university-offices",
+      "file_path": "05-administration/university-offices.md",
+      "title": "University Offices and Directorates",
+      "category": "Administration",
+      "heading_path": [
+        "University Offices and Directorates",
+        "Offices",
+        "Directorates and boards",
+        "Other administrative units in the menu",
+        "Governance bodies named in the Statutes 2025",
+        "Sources"
+      ],
+      "chunk_index": 0,
+      "content": "# University Offices and Directorates\n\nListed from the official website navigation on 2026-11-18. The individual office pages were **not retrieved** in this stage, so responsibilities and office holders are not recorded (except where noted).\n\n## Offices\n| Office | Official page |\n|---|---|\n| Vice Chancellor's Secretariat | https://uswat.edu.pk/vc-office/ |\n| Office of the Pro Vice Chancellor | https://uswat.edu.pk/office-of-the-pro-vice-chancellor-pro-vc/ |\n| Office of the Registrar | https://uswat.edu.pk/registeror-office/ |\n| Treasurer Office | https://uswat.edu.pk/treasurer-office/ |\n| Controller of Examination Office | https://uswat.edu.pk/controller-of-examination-office/ |\n| Public Relation Office | https://uswat.edu.pk/pro-2/ |\n| Provost Office | https://uswat.edu.pk/provost-office/ |\n| University Advancement & Financial Aid Office | https://uswat.edu.pk/university-advancement-financial-aid-office/ |\n\n## Directorates and boards\n| Unit | Official page |\n|---|---|\n| Directorate of Administration | https://uswat.edu.pk/directorate-of-administration/ |\n| Directorate of Admissions | https://uswat.edu.pk/directorate-of-admissions/ |\n| Directorate of Information Technology | https://uswat.edu.pk/directorate-of-it/ |\n| Directorate of Sports | https://uswat.edu.pk/directorate-of-sports/ |\n| Directorate of Planning and Development (with Developmental Projects page) | https://uswat.edu.pk/directorate-of-planning-and-development/ |\n| Advanced Studies and Research Board (ASRB) | https://uswat.edu.pk/advanced-studies-and-research-board/ |\n| Directorate of Works | https://uswat.edu.pk/directorate-of-works/ |\n\n## Other administrative units in the menu\n- Quality Enhancement Cell (QEC): https://uswat.edu.pk/quality-enhancement-cell/\n- Office of Research, Innovation and Commercialization (ORIC): https://uswat.edu.pk/oric-2/\n- University of Swat Alumni Association (UOSAA): https://uswat.edu.pk/alumni/\n- Central Library: https://uswat.edu.pk/central-library-office/\n- Media Cell: https://uswat.edu.pk/press-release/\n- Proctorial Board: https://uswat.edu.pk/proctorial-board/\n- YDC (Youth Development Center): https://uswat.edu.pk/kamyab-jawan-markaz/\n- M-Varsities (Malakand Division Universities): https://uswat.edu.pk/malakand-division-universities/\n- Affiliated colleges: public sector and private sector lists at https://uswat.edu.pk/public-sector-affiliated-colleges/ and https://uswat.edu.pk/private-sector-affiliated-colleges/ (not retrieved)\n\n## Governance bodies named in the Statutes 2025\nSenate, Syndicate, Academic Council, Finance and Planning Committee, Advanced Studies and Research Board, Selection Board, Board of Faculties and Board of Studies are defined terms in the Statutes (pp. 5-12). The Statutes say they are made under the Khyber Pakhtunkhwa Universities Act, 2012, and define the Vice-Chancellor, Registrar, Treasurer, Controller of Examinations, Provost, Director Academics, Director ORIC and Director QEC as university offices.\n\n## Sources\n\n1. UNIVERSITY OF SWAT - Aspiring for Quality Education with Relevance (Homepage)\n   - URL: https://uswat.edu.pk/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18\n2. The University of Swat Statutes, 2025 (368 pages)\n   - URL: https://uswat.edu.pk/wp-content/uploads/2026/07/PDF-Approved-Final-Statutes-2025-Searchable-1.pdf\n   - Source Type: Official University PDF\n   - Document Date: Not Available\n   - Accessed Date: 2026-11-18\n   - Note: Upload path indicates July 2026. Only the first ~64 of 368 pages were analysed.",
+      "approx_token_count": 390,
+      "source_keys": [
+        "home",
+        "statutes"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/",
+        "https://uswat.edu.pk/wp-content/uploads/2026/07/PDF-Approved-Final-Statutes-2025-Searchable-1.pdf"
+      ],
+      "verification_status": "verified",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": false,
+      "overlap_from_previous_approx_tokens": 0
+    },
+    {
+      "chunk_id": "oric-001",
+      "document_id": "06-research-and-development__oric",
+      "file_path": "06-research-and-development/oric.md",
+      "title": "Office of Research, Innovation and Commercialization (ORIC)",
+      "category": "Research and Development",
+      "heading_path": [
+        "ORIC - Office of Research, Innovation and Commercialization",
+        "Confirmed facts",
+        "Research-related policies listed on Downloads (61st Syndicate meeting; not read)",
+        "Other research units",
+        "Not collected",
+        "Sources"
+      ],
+      "chunk_index": 0,
+      "content": "# ORIC - Office of Research, Innovation and Commercialization\n\n## Confirmed facts\n- ORIC page: https://uswat.edu.pk/oric-2/ (not retrieved).\n- A Syndicate decision listed on Downloads approved a change in nomenclature from the **Directorate of Outreach, Research, Innovation and Commercialization (DORIC)** to the **Office of Research, Innovation and Commercialization (ORIC)** (file uploaded January 2021; the document was not read).\n- The Statutes 2025 define \"ORIC\" as the Office of Research, Innovation and Commercialization, and refer to a Director ORIC.\n- Homepage announcements show ORIC organised an awareness and training session for PhD faculty members (news dated 2026-11-02).\n\n## Research-related policies listed on Downloads (61st Syndicate meeting; not read)\nImplementation of Technology Transfer Policy; Implementation of Research Ethics Policy; Implementation of Research Conflict of Interest Policy.\n\n## Other research units\n- Advanced Studies and Research Board (ASRB): https://uswat.edu.pk/advanced-studies-and-research-board/\n- SUJRIS journal site: https://sujris.uswat.edu.pk/\n- Homepage news in 2026 mentions MoUs relating to Gandhara civilization research (University of Swat and Sri Lankan NIIBS, 2026-11-06) and an HEC-NRPU funded research project job advertisement (2026-09-11).\n\n## Not collected\nORIC services, staff, grants support, research centres and publication lists.\n\n## Sources\n\n1. Downloads\n   - URL: https://uswat.edu.pk/downloads/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18\n2. UNIVERSITY OF SWAT - Aspiring for Quality Education with Relevance (Homepage)\n   - URL: https://uswat.edu.pk/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18\n3. The University of Swat Statutes, 2025 (368 pages)\n   - URL: https://uswat.edu.pk/wp-content/uploads/2026/07/PDF-Approved-Final-Statutes-2025-Searchable-1.pdf\n   - Source Type: Official University PDF\n   - Document Date: Not Available\n   - Accessed Date: 2026-11-18\n   - Note: Upload path indicates July 2026. Only the first ~64 of 368 pages were analysed.",
+      "approx_token_count": 278,
+      "source_keys": [
+        "downloads",
+        "home",
+        "statutes"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/downloads/",
+        "https://uswat.edu.pk/",
+        "https://uswat.edu.pk/wp-content/uploads/2026/07/PDF-Approved-Final-Statutes-2025-Searchable-1.pdf"
+      ],
+      "verification_status": "verified",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": false,
+      "overlap_from_previous_approx_tokens": 0
+    },
+    {
+      "chunk_id": "official-regulations-001",
+      "document_id": "07-policies-and-regulations__official-regulations",
+      "file_path": "07-policies-and-regulations/official-regulations.md",
+      "title": "Official Regulations and Policies Index",
+      "category": "Policies and Regulations",
+      "heading_path": [
+        "Official Regulations and Policies",
+        "Student-relevant documents",
+        "Content of Statutes 2025 that was read (pages 1-64)",
+        "Not read",
+        "Sources"
+      ],
+      "chunk_index": 0,
+      "content": "# Official Regulations and Policies\n\nThe official page https://uswat.edu.pk/rules/ (\"Rules / Policies\") exists in the menu but was **not retrieved**. The documents below are listed on the Downloads page. \"Read\" means the text was extracted and analysed.\n\n## Student-relevant documents\n| Document | Syndicate meeting / note | Read? |\n|---|---|---|\n| University of Swat Statutes 2025 | Senate-made statutes under the Khyber Pakhtunkhwa Universities Act 2012 | Partly (pp. 1-64 of 368) |\n| Revised Schedule of Fee | 57th Syndicate (ref. 57-SYND/2024-15) | Yes |\n| Semester System Regulations for UG (Fall 2024 & onwards) | - | No (scanned) |\n| University of Swat Semester Regulations for UG | 61st | No (scanned) |\n| UoS Semester System Regulations | 51st | No (scanned) |\n| UG Policy Fall 2023 | 53rd | No |\n| Library Rules | 57th | No |\n| Social Media Policy | - | No |\n| Student Societies | - | No |\n| Student Welfare Fund Policy / Student Welfare Funds | 51st / 53rd | No |\n| ODL (Open and Distance Learning) Policy | 51st | No |\n| Associate Degree programs in affiliated colleges (approval) | - | No |\n| Online classes and examination policies during COVID-19 | 2020-2021 | No (historical) |\n\n## Content of Statutes 2025 that was read (pages 1-64)\n- **Applicability and governance:** the Statutes apply to authorities, faculties, departments, directorates, centres, institutes and sub-campuses, and to university employees (except contract, deputation and contingency staff).\n- **Service rules:** probation of one year (extendable by one year); retirement on superannuation at 60 years; annual increment on 1 December; right of appeal within 30 days. These concern employees, not students.\n- **Fees and miscellaneous charges:** see `01-admissions/fee-structure.md`.\n- **Register of Registered Graduates:** the Registrar maintains it through the Controller of Examinations, and a report of the number of registered graduates is published on the university website.\n- **Annual Report:** prepared by the university, considered by the Syndicate and submitted to the Senate within three months of the end of the academic year.\n- **Teacher recruitment:** vacancies are advertised in at least two nationwide newspapers and on the university website; selection board interview qualifying marks are 60%; teacher scales are BPS-18 Lecturer, BPS-19 Assistant Professor, BPS-20 Associate Professor, BPS-21 Professor, BPS-22 Meritorious Professor; closing date normally 15 to 30 days after advertisement.\n\n## Not read\nPages 65-368 of the Statutes (administrative officer and support staff service rules, leave, honorary degrees, authorities' constitution and powers, faculties and departments establishment, tenure track, discipline, affiliation of colleges, elections, pension and provident fund rules and other chapters).\n\n## Sources",
+      "approx_token_count": 441,
+      "source_keys": [
+        "downloads",
+        "statutes"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/downloads/",
+        "https://uswat.edu.pk/wp-content/uploads/2026/07/PDF-Approved-Final-Statutes-2025-Searchable-1.pdf"
+      ],
+      "verification_status": "verified",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": false,
+      "overlap_from_previous_approx_tokens": 0
+    },
+    {
+      "chunk_id": "official-regulations-002",
+      "document_id": "07-policies-and-regulations__official-regulations",
+      "file_path": "07-policies-and-regulations/official-regulations.md",
+      "title": "Official Regulations and Policies Index",
+      "category": "Policies and Regulations",
+      "heading_path": [],
+      "chunk_index": 1,
+      "content": "and on the university website; selection board interview qualifying marks are 60%; teacher scales are BPS-18 Lecturer, BPS-19 Assistant Professor, BPS-20 Associate Professor, BPS-21 Professor, BPS-22 Meritorious Professor; closing date normally 15 to 30 days after advertisement. ## Not read Pages 65-368 of the Statutes (administrative officer and support staff service rules, leave, honorary degrees, authorities' constitution and powers, faculties and departments establishment, tenure track, discipline, affiliation of colleges, elections, pension and provident fund rules and other chapters). ## Sources\n\n1. Downloads\n   - URL: https://uswat.edu.pk/downloads/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18\n2. The University of Swat Statutes, 2025 (368 pages)\n   - URL: https://uswat.edu.pk/wp-content/uploads/2026/07/PDF-Approved-Final-Statutes-2025-Searchable-1.pdf\n   - Source Type: Official University PDF\n   - Document Date: Not Available\n   - Accessed Date: 2026-11-18\n   - Note: Upload path indicates July 2026. Only the first ~64 of 368 pages were analysed.",
+      "approx_token_count": 143,
+      "source_keys": [
+        "downloads",
+        "statutes"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/downloads/",
+        "https://uswat.edu.pk/wp-content/uploads/2026/07/PDF-Approved-Final-Statutes-2025-Searchable-1.pdf"
+      ],
+      "verification_status": "verified",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": false,
+      "overlap_from_previous_approx_tokens": 80
+    },
+    {
+      "chunk_id": "current-announcements-001",
+      "document_id": "08-news-and-announcements__current-announcements",
+      "file_path": "08-news-and-announcements/current-announcements.md",
+      "title": "Announcements and News Snapshot (2026-11-18)",
+      "category": "News and Announcements",
+      "heading_path": [
+        "Announcements and News Snapshot - captured 2026-11-18",
+        "Latest News",
+        "Announcements category",
+        "Events category",
+        "Tender notices (procurement; not student-facing)",
+        "Admission and examination announcements",
+        "Sources"
+      ],
+      "chunk_index": 0,
+      "content": "# Announcements and News Snapshot - captured 2026-11-18\n\nThis is a **snapshot of the homepage**. News changes often; do not treat it as current after the capture date. Titles are as published; details were not opened except the KPEF notice.\n\n## Latest News\n| Date | Title |\n|---|---|\n| 2026-11-18 | MoU signed with House of Commons Academy (Islamabad) to establish a university-based Digital Civil Services Preparation Program |\n| 2026-11-12 | Seminar on Anti Drug awareness |\n| 2026-11-12 | University joins NCHD for \"Each One Teach One\" |\n| 2026-11-12 | One-day seminar \"Robot Trader: Algorithmic Trading for a Smarter Financial Future\" |\n| 2026-11-11 | Prof. Dr. Luca Maria Olivieri (Sitara-i-Imtiaz), Director of the Italian Archaeological Mission to Pakistan, met the Vice Chancellor |\n| 2026-11-08 | International Conference: One Planet One Health; Nature, Climate & Humanity |\n| 2026-11-08 | Allama Iqbal Day |\n| 2026-11-06 | KPEF \"Merit-cum-Inaffordability\" Scholarship Scheme 2025-26 |\n| 2026-11-06 | MoU with Sri Lankan NIIBS on research on Gandhara Civilization |\n| 2026-11-05 | HEC DLSEI 3.0 - Cohort 4 |\n\n## Announcements category\nInternational Conference \"One Planet One Health\" (2026-11-08); HEC DLSEI 3.0 Cohort 4 (2026-11-05); ORIC awareness and training session for PhD faculty (2026-11-02); University and Swat Chamber of Commerce and Industry explore collaboration (2026-10-28); Inaugural lecture of Swat Lectures (2026-10-27); University becomes first in the province to launch a major solarization project (2026-10-22).\n\n## Events category\nAnti Drug awareness seminar (2026-11-12); NCHD \"Each One Teach One\" (2026-11-12); Robot Trader seminar (2026-11-12); NIIBS MoU (2026-11-06); Awareness drive on cervical cancer prevention (2026-11-05); Kashmir Black Day (2026-10-27).\n\n## Tender notices (procurement; not student-facing)\nRecent items include GPC meetings for tenders 32992 and 32982 (2026-09-29), procurement of paper reams and answer books (2026-09), earthing re-tender (2026-08-24).\n\n## Admission and examination announcements\nNo admission or examination announcement for the current session was visible in the homepage snapshot. See `01-admissions/admission-deadlines.md`.\n\n## Sources\n\n1. UNIVERSITY OF SWAT - Aspiring for Quality Education with Relevance (Homepage)\n   - URL: https://uswat.edu.pk/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18",
+      "approx_token_count": 351,
+      "source_keys": [
+        "home"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/"
+      ],
+      "verification_status": "verified",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": true,
+      "overlap_from_previous_approx_tokens": 0
+    },
+    {
+      "chunk_id": "job-opportunities-001",
+      "document_id": "09-careers-and-opportunities__job-opportunities",
+      "file_path": "09-careers-and-opportunities/job-opportunities.md",
+      "title": "Job Opportunities (Snapshot)",
+      "category": "Careers and Opportunities",
+      "heading_path": [
+        "Job Opportunities",
+        "Job advertisements listed on the homepage (2026-11-18)",
+        "Application forms",
+        "Recruitment rules (Statutes 2025)",
+        "Sources"
+      ],
+      "chunk_index": 0,
+      "content": "# Job Opportunities\n\n## Job advertisements listed on the homepage (2026-11-18)\n| Date | Title | Status |\n|---|---|---|\n| 2026-09-11 | Research Assistant in HEC-NRPU Funded Research Project | Closing date not retrieved; likely closed |\n| 2026-08-08 | Walk in Interview (Fall 2026) | Likely past |\n| 2026-03-18 | Situations Vacant (March, 2026) | Likely closed |\n| 2026-02-23 | Situations Vacant | Likely closed |\n| 2026-02-13 | Quantification Sheet of Assistant Professor of Public Health | Historical |\n\nCategory page: https://uswat.edu.pk/category/jobs/ (not retrieved). Whether any vacancy is open now is **unverified**; check the Jobs page.\n\n## Application forms\nEmployment forms for BPS-17 and for BPS-16 and below (support staff) are available in PDF and Word on the Downloads page.\n\n## Recruitment rules (Statutes 2025)\nTeaching posts are advertised in at least two nationwide newspapers and on the university website. Applications must be on the prescribed format with the prescribed fee. Syndicate decisions listed on Downloads mention a 5% minority quota and a 2% disability quota in recruitment (61st Syndicate meeting; documents not read).\n\n## Sources\n\n1. UNIVERSITY OF SWAT - Aspiring for Quality Education with Relevance (Homepage)\n   - URL: https://uswat.edu.pk/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18\n2. Downloads\n   - URL: https://uswat.edu.pk/downloads/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18\n3. The University of Swat Statutes, 2025 (368 pages)\n   - URL: https://uswat.edu.pk/wp-content/uploads/2026/07/PDF-Approved-Final-Statutes-2025-Searchable-1.pdf\n   - Source Type: Official University PDF\n   - Document Date: Not Available\n   - Accessed Date: 2026-11-18\n   - Note: Upload path indicates July 2026. Only the first ~64 of 368 pages were analysed.",
+      "approx_token_count": 273,
+      "source_keys": [
+        "home",
+        "downloads",
+        "statutes"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/",
+        "https://uswat.edu.pk/downloads/",
+        "https://uswat.edu.pk/wp-content/uploads/2026/07/PDF-Approved-Final-Statutes-2025-Searchable-1.pdf"
+      ],
+      "verification_status": "verified",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": true,
+      "overlap_from_previous_approx_tokens": 0
+    },
+    {
+      "chunk_id": "document-index-001",
+      "document_id": "11-downloads-and-official-documents__document-index",
+      "file_path": "11-downloads-and-official-documents/document-index.md",
+      "title": "Document Index",
+      "category": "Downloads and Official Documents",
+      "heading_path": [
+        "Document Index"
+      ],
+      "chunk_index": 0,
+      "content": "# Document Index\n\nAll documents below were discovered on the official Downloads page and Academic Calendar page on 2026-11-18. Total listed: **76**. Document dates are generally not shown on the pages; where the Syndicate meeting number is given it is the only date signal. Analysis column: *Yes* = text extracted and used; *Partial*; *Scanned* = PDF has no text layer; blank = discovered but not opened.",
+      "approx_token_count": 66,
+      "source_keys": [
+        "downloads",
+        "calendar"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/downloads/",
+        "https://uswat.edu.pk/academic-calendar/"
+      ],
+      "verification_status": "verified",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": false,
+      "overlap_from_previous_approx_tokens": 0
+    },
+    {
+      "chunk_id": "document-index-002",
+      "document_id": "11-downloads-and-official-documents__document-index",
+      "file_path": "11-downloads-and-official-documents/document-index.md",
+      "title": "Document Index",
+      "category": "Downloads and Official Documents",
+      "heading_path": [],
+      "chunk_index": 1,
+      "content": "# Document Index All documents below were discovered on the official Downloads page and Academic Calendar page on 2026-11-18. Total listed: **76**. Document dates are generally not shown on the pages; where the Syndicate meeting number is given it is the only date signal. Analysis column: *Yes* = text extracted and used; *Partial*; *Scanned* = PDF has no text layer; blank = discovered but not opened.\n\n| # | Group | Title | Link | Note |\n|---|---|---|---|---|\n| 1 | Syndicate Decisions or Related | Statutes Changes Notification | https://uswat.edu.pk/wp-content/uploads/2026/07/statu_changes.pdf |  |\n| 2 | Syndicate Decisions or Related | University Statutes 2025 | https://uswat.edu.pk/wp-content/uploads/2026/07/PDF-Approved-Final-Statutes-2025-Searchable-1.pdf | Partly analysed (pp. 1-64 of 368) |\n| 3 | Syndicate Decisions or Related | Relaxation in upper age limit for various position duly advertisement | https://uswat.edu.pk/wp-content/uploads/2026/06/request-for-relaxation-in-upper-age-limit-for-various-position-duly-advertisement-by-the-UoS.pdf | 68th Syndicate |\n| 4 | Syndicate Decisions or Related | Implementation of Technology Transfer Policy | https://uswat.edu.pk/wp-content/uploads/2025/03/Implementation-of-Technology-Transfer-Policy.pdf | 61st Syndicate |\n| 5 | Syndicate Decisions or Related | University of Swat Semester Regulations For Undergraduate | https://uswat.edu.pk/wp-content/uploads/2025/03/University-of-Swat-Semester-Regulations-For-Undergraduate.pdf | 61st Syndicate; scanned, no text |\n| 6 | Syndicate Decisions or Related | Adoption of 5% Minority Quota in Recruitment | https://uswat.edu.pk/wp-content/uploads/2025/03/Adoption-of-5-Minority-Quota-in-Recruitment.pdf | 61st Syndicate |\n| 7 | Syndicate Decisions or Related | Implementation of Research Ethics Policy | https://uswat.edu.pk/wp-content/uploads/2025/03/Implementation-of-Research-Ethics-Policy.pdf | 61st Syndicate |\n| 8 | Syndicate Decisions or Related | Implementation of Research Conflict Of Interest Policy | https://uswat.edu.pk/wp-content/uploads/2025/03/Implementation-of-Research-Conflict-Of-Interest-Policy.pdf | 61st Syndicate |\n| 9 | Syndicate Decisions or Related | Implementation Adoption of HEC Pakistan Sports Board Constitution and Rules 2024 | https://uswat.edu.pk/wp-content/uploads/2025/03/Implementation-Adoption-of-Higher-Education-Commission-Pakistan-Sports-Board-Constitution-and-Rules-2024.pdf | 61st Syndicate |\n| 10 | Syndicate Decisions or Related | Adoption of 2% Disability Quota in Recruitment | https://uswat.edu.pk/wp-content/uploads/2025/03/Adoption-of-2-Disability-Quita-in-Recruitment.pdf | 61st Syndicate |\n| 11 | Syndicate Decisions or Related | Adoption of HEC Write Off Book Losses Rules | https://uswat.edu.pk/wp-content/uploads/2025/03/Adoption-of-HEC-Write-Off-Book-Losses-Rules.pdf | 61st Syndicate |\n| 12 | Syndicate Decisions or Related | Semester System Regulations for Undergraduate Degree Program (Fall 2024 & Onwards) | https://uswat.edu.pk/wp-content/uploads/2024/12/Semester-System-Regulations-for-Undergraduate-Degree-Program-Fall-2024-Onwards-Final-Version-1.pdf | Scanned, no text |\n| 13 | Syndicate Decisions or Related | Social Media Policy | https://uswat.edu.pk/wp-content/uploads/2024/10/8.-Social-Media-Policy-1.pdf |  |\n| 14 | Syndicate Decisions or Related | Revised Schedule of fee Approved by syndicate | https://uswat.edu.pk/wp-content/uploads/2024/09/Revised-Schedule-of-fee-Approved-by-syndicate.pdf | Analysed |\n| 15 | Syndicate Decisions or Related | Library Rules (with Syndicate notification) | https://uswat.edu.pk/wp-content/uploads/2024/08/Library-Rules-along-with-Syndicate-notification.pdf | 57th Syndicate |\n| 16 | Syndicate Decisions or Related | Used of University Assets Charges | https://uswat.edu.pk/wp-content/uploads/2024/08/Used-of-University-Assets-Fee-Notif.pdf |  |\n| 17 | Syndicate Decisions or Related | Adoption of West Pakistan Maintenance Act Notification | https://uswat.edu.pk/wp-content/uploads/2024/05/Adoption-of-West-pak-maintainance-Act-Notification.pdf | 56th Syndicate |\n| 18 | Syndicate Decisions or Related | UG Policy Fall 2023 | https://uswat.edu.pk/wp-content/uploads/2024/01/UG-Policy_fall2023.pdf | 53rd Syndicate |\n| 19 | Syndicate Decisions or Related | Student Welfare Funds | https://uswat.edu.pk/wp-content/uploads/2024/01/SWF-50-200.pdf | 53rd Syndicate |\n| 20 | Syndicate Decisions or Related | Adaptation of HEC Policies | https://uswat.edu.pk/wp-content/uploads/2024/01/HEC_Plocies.pdf | 53rd Syndicate |\n| 21 | Syndicate Decisions or Related | Endowment Fund for Revenue Enhancement Policy | https://uswat.edu.pk/wp-content/uploads/2023/07/UoS-Endownment-Fund-for-Revenue-Enhancement-Policy.pdf | 51st Syndicate |\n| 22 | Syndicate Decisions or Related | Student Welfare Fund Policy | https://uswat.edu.pk/wp-content/uploads/2023/07/Student-Welfare-Fund-Policy.pdf | 51st Syndicate |\n| 23 | Syndicate Decisions or Related | Age Relaxation & Deceased Employee Quota Rules | https://uswat.edu.pk/wp-content/uploads/2023/07/Age-Relaxation-Deceased-Employee-Qouta-Rules.pdf | 51st Syndicate |\n| 24 | Syndicate Decisions or Related | ODL Policy | https://uswat.edu.pk/wp-content/uploads/2023/07/ODL-Policy-and-Approval-of-the-Syndicate.pdf | 51st Syndicate |\n| 25 | Syndicate Decisions or Related | Semester Regulations (UoS Semester System Regulations) | https://uswat.edu.pk/wp-content/uploads/2023/07/UoS-Semester-System-Regulations.pdf | 51st Syndicate; scanned, no text |\n| 26 | Syndicate Decisions or Related | Final Performance Base Increment Policy | https://uswat.edu.pk/wp-content/uploads/2023/04/Final-Performance-base-increment-policy.pdf |  |\n| 27 | Syndicate Decisions or Related | Revised Fee Notifications | https://uswat.edu.pk/wp-content/uploads/2023/03/Fee-Notifications-.pdf | Historical |\n| 28 | Syndicate Decisions or Related | 50th Syndicate Revised Fee Final Notification | https://uswat.edu.pk/wp-content/uploads/2023/03/50th-Syndicate-Revised-Fee-Final-Notification-50.pdf | Historical |\n| 29 | Syndicate Decisions or Related | Approval of Draft Policy For Online Classes, Conduct of Examination During COVID Pandemic and Payment to Visiting Faculty | https://uswat.edu.pk/wp-content/uploads/2019/09/34-SYND-2020-31-05282021103328.pdf | Historical (34th Syndicate, 2020) |\n| 30 | Syndicate Decisions or Related | Approval for Launching of Associate Degree Programs in Affiliated Colleges | https://uswat.edu.pk/wp-content/uploads/2021/02/Page0001.pdf |  |\n| 31 | Syndicate Decisions or Related | Change in nomenclature of DORIC to ORIC | https://uswat.edu.pk/wp-content/uploads/2021/01/Page0007.pdf |  |\n| 32 | Syndicate Decisions or Related | Inclusion of Registrar or his Nominee in Departmental Tenure Review Committee | https://uswat.edu.pk/wp-content/uploads/2021/01/Page0014.pdf |  |\n| 33 | Syndicate Decisions or Related | Remuneration of the Departmental Semester Coordinators | https://uswat.edu.pk/wp-content/uploads/2021/01/Page0021.pdf |  |\n| 34 | Syndicate Decisions or Related | Remunerations of Supervisors of MPhil Scholars | https://uswat.edu.pk/wp-content/uploads/2021/01/Page0022.pdf |  |",
+      "approx_token_count": 765,
+      "source_keys": [
+        "downloads",
+        "calendar"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/downloads/",
+        "https://uswat.edu.pk/academic-calendar/"
+      ],
+      "verification_status": "verified",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": false,
+      "overlap_from_previous_approx_tokens": 66
+    },
+    {
+      "chunk_id": "document-index-003",
+      "document_id": "11-downloads-and-official-documents__document-index",
+      "file_path": "11-downloads-and-official-documents/document-index.md",
+      "title": "Document Index",
+      "category": "Downloads and Official Documents",
+      "heading_path": [],
+      "chunk_index": 2,
+      "content": "| | | 31 | Syndicate Decisions or Related | Change in nomenclature of DORIC to ORIC | https://uswat.edu.pk/wp-content/uploads/2021/01/Page0007.pdf | | | 32 | Syndicate Decisions or Related | Inclusion of Registrar or his Nominee in Departmental Tenure Review Committee | https://uswat.edu.pk/wp-content/uploads/2021/01/Page0014.pdf | | | 33 | Syndicate Decisions or Related | Remuneration of the Departmental Semester Coordinators | https://uswat.edu.pk/wp-content/uploads/2021/01/Page0021.pdf | | | 34 | Syndicate Decisions or Related | Remunerations of Supervisors of MPhil Scholars | https://uswat.edu.pk/wp-content/uploads/2021/01/Page0022.pdf | |\n\n| # | Group | Title | Link | Note |\n|---|---|---|---|---|\n| 35 | Syndicate Decisions or Related | Revision in Remuneration rates of member/Drivers of statutory bodies meetings | https://uswat.edu.pk/wp-content/uploads/2021/01/Page0029.pdf |  |\n| 36 | Syndicate Decisions or Related | Grievance Committee (COVID-19) | https://uswat.edu.pk/wp-content/uploads/2020/08/Page0003.pdf | Historical |\n| 37 | Syndicate Decisions or Related | Draft Policy for Online Classes | https://uswat.edu.pk/wp-content/uploads/2020/09/Page0031.pdf | Historical |\n| 38 | Syndicate Decisions or Related | Semester System Fee Structure for University of Swat and its Affiliated Colleges (2020) | https://uswat.edu.pk/wp-content/uploads/2020/09/New-Approved-Fee-Structure-2020-2.pdf | Historical |\n| 39 | Students | Provincial Zakat Administration Scholarship Form (Educational Stipends) | https://uswat.edu.pk/wp-content/uploads/2022/04/Application-form_2.pdf |  |\n| 40 | Students | Credit Transfer Form | https://uswat.edu.pk/wp-content/uploads/2019/09/Credit-Transfer-Form-1.docx | DOCX |\n| 41 | Students | Admission Cancellation Form | https://uswat.edu.pk/wp-content/uploads/2019/09/Admission-Cancellation-Form.pdf |  |\n| 42 | Students | M.Phil/Ph.D Regulations (file name: University of Peshawar) | https://uswat.edu.pk/wp-content/uploads/2020/08/University-of-Peshawar-M.Phil-Ph.D-Regulations.pdf | Hosted on the Swat site; originates from another university |\n| 43 | Students | Students Societies | https://uswat.edu.pk/wp-content/uploads/2020/05/Student-Societies-1.pdf |  |\n| 44 | Students | Pakistan Baitul Maal Stipend Application Form 2019 | http://uswat.edu.pk/wp-content/uploads/2019/10/Application-form-for-PBM-Scholarship-2019.pdf | Historical |\n| 45 | Students | MS/MPhil/PhD Form 2019 | http://uswat.edu.pk/wp-content/uploads/2019/10/MPhil_PhD_Form_2019.pdf | Historical |\n| 46 | Students | Master Additional Form | http://uswat.edu.pk/wp-content/uploads/2019/10/master-Additional-Form.pdf | Historical |\n| 47 | Students | Alumni Form (convocation registration) | https://uswat.edu.pk/wp-content/uploads/2025/07/reg-form-convocation.pdf |  |\n| 48 | Students | Transport Form | https://uswat.edu.pk/wp-content/uploads/2025/10/Transport-Form.pdf |  |\n| 49 | Students | Format of college to University of student record | https://uswat.edu.pk/wp-content/uploads/2026/05/Student-Data.xlsx | XLSX template |\n| 50 | Employment Forms | Employment-Form-BPS-17 (PDF) | https://uswat.edu.pk/wp-content/uploads/2019/09/Employment-Form-BPS-17.pdf |  |\n| 51 | Employment Forms | Employment-Form BPS-16-Below-Support-Staff (PDF) | https://uswat.edu.pk/wp-content/uploads/2019/09/Employment-Form-BPS-16-Below-Support-Staff.pdf |  |\n| 52 | Employment Forms | Employment-Form-BPS-17 (MS WORD) | https://uswat.edu.pk/wp-content/uploads/2019/09/Employment-Form-BPS-17.docx | DOCX |\n| 53 | Employment Forms | Employment-Form BPS-16-Below-Support-Staff (MS WORD) | https://uswat.edu.pk/wp-content/uploads/2019/09/Employment-Form-BPS-16-Below-Support-Staff.docx | DOCX |\n| 54 | Bank Deposit Slips | General Fee Slip 2024 | https://uswat.edu.pk/wp-content/uploads/2024/02/General-Fee-Slip-2024.pdf |  |\n| 55 | Bank Deposit Slips | HBL Bank Deposit Slip for Main Campus (PDF) | https://uswat.edu.pk/wp-content/uploads/2020/01/HBL-Bank-Deposit-Slip-for-Main-Campus-MS-Word.pdf |  |\n| 56 | Bank Deposit Slips | HBL Bank Deposit Slip for Main Campus (DOCX) | https://uswat.edu.pk/wp-content/uploads/2020/01/HBL-Bank-Deposit-Slip-for-Main-Campus-MS-Word.docx | DOCX |\n| 57 | Bank Deposit Slips | HBL Bank Deposit Slip for Women Campus (PDF) | http://uswat.edu.pk/wp-content/uploads/2019/11/HBL-Bank-Deposit-Slip-for-Women-Campus-PDF-Format-1.pdf |  |\n| 58 | Bank Deposit Slips | HBL Bank Deposit Slip for Women Campus (second listing) | http://uswat.edu.pk/wp-content/uploads/2019/11/HBL-Bank-Deposit-Slip-for-Women-Campus-PDF-Format.pdf | Listed as MS Word but link is a PDF |\n| 59 | Affiliations | Application Form for Affiliation of Degree Program | https://uswat.edu.pk/wp-content/uploads/2026/07/Application-Form-for-Affiliation-of-Degree-Program.docx | DOCX |\n| 60 | Scholarship Forms | Application Form HEC Need Based Scholarship | https://uswat.edu.pk/wp-content/uploads/2024/05/Application-Form-HEC-Need-Based-Scholarship.pdf |  |\n| 61 | Scholarship Forms | Student Detail (Ehsaas) | https://uswat.edu.pk/wp-content/uploads/2019/09/Students-Details.docx | DOCX |\n| 62 | Scholarship Forms | Deed of agreement (Ehsaas) | https://uswat.edu.pk/wp-content/uploads/2019/09/Deed-of-agreement-UoS.pdf |  |\n| 63 | Scholarship Forms | Student Details (Need Based Scholarship) | https://uswat.edu.pk/wp-content/uploads/2019/09/Student-Details-Need-Based-Scholarship.docx | DOCX |\n| 64 | Scholarship Forms | Deed of agreement (Need Based Scholarship) | https://uswat.edu.pk/wp-content/uploads/2019/09/Deed-of-agreement-Need-Based-Scholarship.pdf |  |\n| 65 | Scholarship Forms | EHSAAS Undergraduate scholarship | http://uswat.edu.pk/wp-content/uploads/2019/11/EHSAAS-Undergraduate-scholarship.pdf |  |\n| 66 | Scholarship Forms | Pakistan Bait ul Mal Scholarship (Spring 2021) | https://uswat.edu.pk/wp-content/uploads/2021/04/PBM-Application-Spring-2021.pdf | Historical |\n| 67 | Other Proformas | Proforma for Email Account (Uswat V-II) | https://uswat.edu.pk/wp-content/uploads/2025/10/Proforma-for-Email-Account-Uswat-V-II.pdf |  |\n| 68 | Other Proformas | CMS Account Creation Proforma (Faculty) | https://uswat.edu.pk/wp-content/uploads/2025/10/CMS-Account-Creation-Proforma.pdf |  |\n| 69 | Other Proformas | MAC Registration Proforma (Internet) | https://uswat.edu.pk/wp-content/uploads/2025/10/MAC-Registration-Proforma-1.pdf |  |\n| 70 | Other Proformas | CMS Result Revision Proforma | https://uswat.edu.pk/wp-content/uploads/2025/12/CMS-Result-Revision-Proforma.pdf |  |\n| 71 | Other Proformas | House Allotment Form (PDF) | https://uswat.edu.pk/wp-content/uploads/2019/09/House-Allotment-Form.pdf |  |\n| 72 | Reports and Minutes | Annual Report 2019 | https://uswat.edu.pk/wp-content/uploads/2019/09/Annual-Report-2019-16-Standard.pdf | Historical |\n| 73 | Reports and Minutes | 11th Senate Meeting Minutes | https://uswat.edu.pk/wp-content/uploads/2025/11/11-Senate-Meeting-Minutes-UOS.pdf | Uploaded 2025-11 |\n| 74 | Academic Calendar page | 2024 Academic Calendar | https://uswat.edu.pk/wp-content/uploads/2023/11/2024-Academic-Calendar-1.pdf | Potentially outdated |\n| 75 | Academic Calendar page | Revised Academic Calendar for A.D Program Semester-II & IV Spring 2023 | https://uswat.edu.pk/wp-content/uploads/2023/07/Acad-cal-Aff-colleges.jpg | Historical image |",
+      "approx_token_count": 762,
+      "source_keys": [
+        "downloads",
+        "calendar"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/downloads/",
+        "https://uswat.edu.pk/academic-calendar/"
+      ],
+      "verification_status": "verified",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": false,
+      "overlap_from_previous_approx_tokens": 80
+    },
+    {
+      "chunk_id": "document-index-004",
+      "document_id": "11-downloads-and-official-documents__document-index",
+      "file_path": "11-downloads-and-official-documents/document-index.md",
+      "title": "Document Index",
+      "category": "Downloads and Official Documents",
+      "heading_path": [],
+      "chunk_index": 3,
+      "content": "House Allotment Form (PDF) | https://uswat.edu.pk/wp-content/uploads/2019/09/House-Allotment-Form.pdf | | | 72 | Reports and Minutes | Annual Report 2019 | https://uswat.edu.pk/wp-content/uploads/2019/09/Annual-Report-2019-16-Standard.pdf | Historical | | 73 | Reports and Minutes | 11th Senate Meeting Minutes | https://uswat.edu.pk/wp-content/uploads/2025/11/11-Senate-Meeting-Minutes-UOS.pdf | Uploaded 2025-11 | | 74 | Academic Calendar page | 2024 Academic Calendar | https://uswat.edu.pk/wp-content/uploads/2023/11/2024-Academic-Calendar-1.pdf | Potentially outdated | | 75 | Academic Calendar page | Revised Academic Calendar for A.D Program Semester-II & IV Spring 2023 | https://uswat.edu.pk/wp-content/uploads/2023/07/Acad-cal-Aff-colleges.jpg | Historical image |\n\n| # | Group | Title | Link | Note |\n|---|---|---|---|---|\n| 76 | Academic Calendar page | Tentative Academic Calendar (Fall 2023, Spring 2023) published 04-07-2023 | https://uswat.edu.pk/wp-content/uploads/2023/07/Academic-Calendar-2023-Revised-04-07-2023.pdf | Historical |",
+      "approx_token_count": 113,
+      "source_keys": [
+        "downloads",
+        "calendar"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/downloads/",
+        "https://uswat.edu.pk/academic-calendar/"
+      ],
+      "verification_status": "verified",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": false,
+      "overlap_from_previous_approx_tokens": 80
+    },
+    {
+      "chunk_id": "document-index-005",
+      "document_id": "11-downloads-and-official-documents__document-index",
+      "file_path": "11-downloads-and-official-documents/document-index.md",
+      "title": "Document Index",
+      "category": "Downloads and Official Documents",
+      "heading_path": [
+        "Sources"
+      ],
+      "chunk_index": 4,
+      "content": "| # | Group | Title | Link | Note | |---|---|---|---|---| | 76 | Academic Calendar page | Tentative Academic Calendar (Fall 2023, Spring 2023) published 04-07-2023 | https://uswat.edu.pk/wp-content/uploads/2023/07/Academic-Calendar-2023-Revised-04-07-2023.pdf | Historical |\n\n## Sources\n\n1. Downloads\n   - URL: https://uswat.edu.pk/downloads/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18\n2. Academic Calendar\n   - URL: https://uswat.edu.pk/academic-calendar/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18",
+      "approx_token_count": 76,
+      "source_keys": [
+        "downloads",
+        "calendar"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/downloads/",
+        "https://uswat.edu.pk/academic-calendar/"
+      ],
+      "verification_status": "verified",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": false,
+      "overlap_from_previous_approx_tokens": 33
+    },
+    {
+      "chunk_id": "forms-001",
+      "document_id": "11-downloads-and-official-documents__forms",
+      "file_path": "11-downloads-and-official-documents/forms.md",
+      "title": "Official Forms",
+      "category": "Downloads and Official Documents",
+      "heading_path": [
+        "Official Forms (links only; contents not analysed)",
+        "Sources"
+      ],
+      "chunk_index": 0,
+      "content": "# Official Forms (links only; contents not analysed)\n\n| Purpose | Form | Link |\n|---|---|---|\n| Admission | Admission Cancellation Form | https://uswat.edu.pk/wp-content/uploads/2019/09/Admission-Cancellation-Form.pdf |\n| Academic | Credit Transfer Form (DOCX) | https://uswat.edu.pk/wp-content/uploads/2019/09/Credit-Transfer-Form-1.docx |\n| Results | CMS Result Revision Proforma (uploaded 2025-12) | https://uswat.edu.pk/wp-content/uploads/2025/12/CMS-Result-Revision-Proforma.pdf |\n| Transport | Transport Form (uploaded 2025-10) | https://uswat.edu.pk/wp-content/uploads/2025/10/Transport-Form.pdf |\n| Alumni | Alumni / convocation registration form (uploaded 2025-07) | https://uswat.edu.pk/wp-content/uploads/2025/07/reg-form-convocation.pdf |\n| Fee payment | General Fee Slip 2024 | https://uswat.edu.pk/wp-content/uploads/2024/02/General-Fee-Slip-2024.pdf |\n| Fee payment | HBL deposit slip, Main Campus | https://uswat.edu.pk/wp-content/uploads/2020/01/HBL-Bank-Deposit-Slip-for-Main-Campus-MS-Word.pdf |\n| Fee payment | HBL deposit slip, Women Campus | http://uswat.edu.pk/wp-content/uploads/2019/11/HBL-Bank-Deposit-Slip-for-Women-Campus-PDF-Format-1.pdf |\n| Affiliation | Application Form for Affiliation of Degree Program (uploaded 2026-07) | https://uswat.edu.pk/wp-content/uploads/2026/07/Application-Form-for-Affiliation-of-Degree-Program.docx |\n| IT | Email account proforma; CMS account creation proforma (faculty); MAC registration proforma (all uploaded 2025-10) | see document index |\n| Scholarships | See `01-admissions/scholarships.md` | |\n| Employment | Employment forms BPS-17 and BPS-16 & below | see document index |\n\nSeveral forms are from 2019 and may be outdated; confirm the current form with the relevant office.\n\n## Sources\n\n1. Downloads\n   - URL: https://uswat.edu.pk/downloads/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18",
+      "approx_token_count": 203,
+      "source_keys": [
+        "downloads"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/downloads/"
+      ],
+      "verification_status": "verified",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": false,
+      "overlap_from_previous_approx_tokens": 0
+    },
+    {
+      "chunk_id": "general-contact-information-001",
+      "document_id": "12-contacts-and-faqs__general-contact-information",
+      "file_path": "12-contacts-and-faqs/general-contact-information.md",
+      "title": "General Contact Information",
+      "category": "Contacts and FAQs",
+      "heading_path": [
+        "General Contact Information",
+        "Sources"
+      ],
+      "chunk_index": 0,
+      "content": "# General Contact Information\n\n| Item | Detail |\n|---|---|\n| Postal location | Main Campus, Charbagh, Swat, Khyber Pakhtunkhwa, Pakistan (a full postal address with postcode was not found) |\n| Website | https://uswat.edu.pk/ |\n| Admissions email | admissions@uswat.edu.pk |\n| Web administrator email | webmaster@uswat.edu.pk |\n| Vice Chancellor's Office phone (Contact List) | 730510 |\n| Facebook | https://www.facebook.com/universityofswat/ |\n| LinkedIn | https://www.linkedin.com/company/university-of-swat1/ |\n| TikTok | https://www.tiktok.com/@universityofswat2010 |\n| YouTube (Campus TV) | https://www.youtube.com/@Campus_Tv_UoS |\n\nTelephone numbers in the university Contact List are given **without an area code or country code**. Do not add a prefix unless it is confirmed from an official source. See `05-administration/contact-directory.md` and `03-departments-and-faculty/department-directory.md`.\n\n## Sources\n\n1. UNIVERSITY OF SWAT - Aspiring for Quality Education with Relevance (Homepage)\n   - URL: https://uswat.edu.pk/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18\n2. Contact List\n   - URL: https://uswat.edu.pk/contact-list/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18\n3. Directorate of Admissions\n   - URL: https://uswat.edu.pk/directorate-of-admissions/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18\n4. About University\n   - URL: https://uswat.edu.pk/about-university/\n   - Source Type: Official University Webpage\n   - Publication Date: Not Available\n   - Accessed Date: 2026-11-18",
+      "approx_token_count": 210,
+      "source_keys": [
+        "home",
+        "contact",
+        "admdir",
+        "about"
+      ],
+      "source_urls": [
+        "https://uswat.edu.pk/",
+        "https://uswat.edu.pk/contact-list/",
+        "https://uswat.edu.pk/directorate-of-admissions/",
+        "https://uswat.edu.pk/about-university/"
+      ],
+      "verification_status": "verified",
+      "source_authority": "See source_urls and Sources section",
+      "accessed_date": "2026-11-18",
+      "last_verified_date": "null",
+      "academic_session": "null",
+      "valid_from": "null",
+      "valid_until": "null",
+      "is_time_sensitive": false,
+      "overlap_from_previous_approx_tokens": 0
+    }
+  ]
+}

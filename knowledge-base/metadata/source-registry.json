@@ -1,0 +1,653 @@
+{
+  "generated": "2026-11-18",
+  "sources": [
+    {
+      "key": "home",
+      "title": "UNIVERSITY OF SWAT - Aspiring for Quality Education with Relevance (Homepage)",
+      "url": "https://uswat.edu.pk/",
+      "source_type": "Official University Webpage",
+      "date": null,
+      "note": null,
+      "official": true,
+      "accessed_date": "2026-11-18"
+    },
+    {
+      "key": "about",
+      "title": "About University",
+      "url": "https://uswat.edu.pk/about-university/",
+      "source_type": "Official University Webpage",
+      "date": null,
+      "note": null,
+      "official": true,
+      "accessed_date": "2026-11-18"
+    },
+    {
+      "key": "admdir",
+      "title": "Directorate of Admissions",
+      "url": "https://uswat.edu.pk/directorate-of-admissions/",
+      "source_type": "Official University Webpage",
+      "date": null,
+      "note": null,
+      "official": true,
+      "accessed_date": "2026-11-18"
+    },
+    {
+      "key": "downloads",
+      "title": "Downloads",
+      "url": "https://uswat.edu.pk/downloads/",
+      "source_type": "Official University Webpage",
+      "date": null,
+      "note": null,
+      "official": true,
+      "accessed_date": "2026-11-18"
+    },
+    {
+      "key": "contact",
+      "title": "Contact List",
+      "url": "https://uswat.edu.pk/contact-list/",
+      "source_type": "Official University Webpage",
+      "date": null,
+      "note": null,
+      "official": true,
+      "accessed_date": "2026-11-18"
+    },
+    {
+      "key": "calendar",
+      "title": "Academic Calendar",
+      "url": "https://uswat.edu.pk/academic-calendar/",
+      "source_type": "Official University Webpage",
+      "date": null,
+      "note": null,
+      "official": true,
+      "accessed_date": "2026-11-18"
+    },
+    {
+      "key": "kpef",
+      "title": "KPEF \"MERIT-CUM-INAFFORDABILITY\" SCHOLARSHIP SCHEME 2025-26",
+      "url": "https://uswat.edu.pk/2026/11/kpef-merit-cum-inaffordability-scholarship-scheme-2025-26/",
+      "source_type": "Official University Webpage",
+      "date": "2026-11-06",
+      "note": null,
+      "official": true,
+      "accessed_date": "2026-11-18"
+    },
+    {
+      "key": "fee",
+      "title": "Revised Schedule of fee Approved by syndicate (Ref. No.UoS/Meetings/57-SYND/2024-15)",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2024/09/Revised-Schedule-of-fee-Approved-by-syndicate.pdf",
+      "source_type": "Official University PDF",
+      "date": null,
+      "note": "Upload path indicates September 2024; document itself carries no explicit date in the extracted text.",
+      "official": true,
+      "accessed_date": "2026-11-18"
+    },
+    {
+      "key": "statutes",
+      "title": "The University of Swat Statutes, 2025 (368 pages)",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2026/07/PDF-Approved-Final-Statutes-2025-Searchable-1.pdf",
+      "source_type": "Official University PDF",
+      "date": null,
+      "note": "Upload path indicates July 2026. Only the first ~64 of 368 pages were analysed.",
+      "official": true,
+      "accessed_date": "2026-11-18"
+    },
+    {
+      "key": "pakadm",
+      "title": "BS Botany Admission 2026 at University of Swat (PakAdmissions)",
+      "url": "https://www.pakadmissions.com/university-of-swat-uswat-admission-fall-2026",
+      "source_type": "External Third-Party Website (not an official university statement)",
+      "date": null,
+      "note": null,
+      "official": false,
+      "accessed_date": "2026-11-18"
+    },
+    {
+      "key": "pakswat",
+      "title": "Universities Admissions in Swat 2026 (PakAdmissions)",
+      "url": "https://www.pakadmissions.com/admissions-in-swat",
+      "source_type": "External Third-Party Website (not an official university statement)",
+      "date": null,
+      "note": null,
+      "official": false,
+      "accessed_date": "2026-11-18"
+    },
+    {
+      "key": "eduv",
+      "title": "University Of Swat (UOS) admission 2026 for BS Courses / Degrees (Eduvision)",
+      "url": "https://www.eduvision.edu.pk/admissions/university-of-swat-swat-admissions-bachelor-level-1324046775",
+      "source_type": "External Third-Party Website (not an official university statement)",
+      "date": null,
+      "note": null,
+      "official": false,
+      "accessed_date": "2026-11-18"
+    },
+    {
+      "key": "maincampus",
+      "title": "Main Campus – University of Swat",
+      "url": "https://uswat.edu.pk/maincampus/",
+      "source_type": "Official University Webpage",
+      "date": null,
+      "note": "Campus location and academic-block/administrative-office listings.",
+      "official": true,
+      "accessed_date": "2026-11-18"
+    },
+    {
+      "key": "womencampus",
+      "title": "Women Campus – University of Swat",
+      "url": "https://uswat.edu.pk/women-campus/",
+      "source_type": "Official University Webpage",
+      "date": null,
+      "note": "Campus history, departments, coordinator and contact information.",
+      "official": true,
+      "accessed_date": "2026-11-18"
+    },
+    {
+      "key": "alliedhealth",
+      "title": "Faculty of Allied Health Sciences – University of Swat",
+      "url": "https://uswat.edu.pk/faculty/",
+      "source_type": "Official University Webpage",
+      "date": null,
+      "note": "Faculty overview, departments, degree programmes and contacts.",
+      "official": true,
+      "accessed_date": "2026-11-18"
+    },
+    {
+      "key": "cms",
+      "title": "University of Swat CMS",
+      "url": "https://cms1.uswat.edu.pk/",
+      "source_type": "Official University Portal",
+      "date": null,
+      "note": "Public landing page lists digital service areas; authenticated data not accessed.",
+      "official": true,
+      "accessed_date": "2026-11-18"
+    },
+    {
+      "key": "hec_profile",
+      "title": "HEC – University of Swat institution profile",
+      "url": "https://www.hec.gov.pk/english/universities/Pages/KPK/University-of-Swat.aspx",
+      "source_type": "Higher Education Commission of Pakistan",
+      "date": null,
+      "note": "Public-sector status, recognition, establishment date and HEC contact information.",
+      "official": true,
+      "accessed_date": "2026-11-18"
+    },
+    {
+      "key": "hec_campuses",
+      "title": "HEC – Recognised Campuses",
+      "url": "https://www.hec.gov.pk/english/universities/Pages/DAIs/HEC-recognized-Campuses.aspx",
+      "source_type": "Higher Education Commission of Pakistan",
+      "date": null,
+      "note": "Lists Shangla upgrade to University of Shangla and Women Campus Swat validity period ending 2025-09-30.",
+      "official": true,
+      "accessed_date": "2026-11-18"
+    },
+    {
+      "key": "kpcode_reg",
+      "title": "University of Swat Regulation, 2010 – Khyber Pakhtunkhwa Code",
+      "url": "https://kpcode.kp.gov.pk/homepage/lawDetails/1260",
+      "source_type": "Government legal database",
+      "date": "2010-07-07",
+      "note": "Government law record and promulgation date.",
+      "official": true,
+      "accessed_date": "2026-11-18"
+    }
+  ],
+  "official_documents_discovered": [
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "Statutes Changes Notification",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2026/07/statu_changes.pdf",
+      "note": ""
+    },
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "University Statutes 2025",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2026/07/PDF-Approved-Final-Statutes-2025-Searchable-1.pdf",
+      "note": "Partly analysed (pp. 1-64 of 368)"
+    },
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "Relaxation in upper age limit for various position duly advertisement",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2026/06/request-for-relaxation-in-upper-age-limit-for-various-position-duly-advertisement-by-the-UoS.pdf",
+      "note": "68th Syndicate"
+    },
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "Implementation of Technology Transfer Policy",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2025/03/Implementation-of-Technology-Transfer-Policy.pdf",
+      "note": "61st Syndicate"
+    },
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "University of Swat Semester Regulations For Undergraduate",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2025/03/University-of-Swat-Semester-Regulations-For-Undergraduate.pdf",
+      "note": "61st Syndicate; scanned, no text"
+    },
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "Adoption of 5% Minority Quota in Recruitment",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2025/03/Adoption-of-5-Minority-Quota-in-Recruitment.pdf",
+      "note": "61st Syndicate"
+    },
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "Implementation of Research Ethics Policy",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2025/03/Implementation-of-Research-Ethics-Policy.pdf",
+      "note": "61st Syndicate"
+    },
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "Implementation of Research Conflict Of Interest Policy",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2025/03/Implementation-of-Research-Conflict-Of-Interest-Policy.pdf",
+      "note": "61st Syndicate"
+    },
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "Implementation Adoption of HEC Pakistan Sports Board Constitution and Rules 2024",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2025/03/Implementation-Adoption-of-Higher-Education-Commission-Pakistan-Sports-Board-Constitution-and-Rules-2024.pdf",
+      "note": "61st Syndicate"
+    },
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "Adoption of 2% Disability Quota in Recruitment",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2025/03/Adoption-of-2-Disability-Quita-in-Recruitment.pdf",
+      "note": "61st Syndicate"
+    },
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "Adoption of HEC Write Off Book Losses Rules",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2025/03/Adoption-of-HEC-Write-Off-Book-Losses-Rules.pdf",
+      "note": "61st Syndicate"
+    },
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "Semester System Regulations for Undergraduate Degree Program (Fall 2024 & Onwards)",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2024/12/Semester-System-Regulations-for-Undergraduate-Degree-Program-Fall-2024-Onwards-Final-Version-1.pdf",
+      "note": "Scanned, no text"
+    },
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "Social Media Policy",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2024/10/8.-Social-Media-Policy-1.pdf",
+      "note": ""
+    },
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "Revised Schedule of fee Approved by syndicate",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2024/09/Revised-Schedule-of-fee-Approved-by-syndicate.pdf",
+      "note": "Analysed"
+    },
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "Library Rules (with Syndicate notification)",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2024/08/Library-Rules-along-with-Syndicate-notification.pdf",
+      "note": "57th Syndicate"
+    },
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "Used of University Assets Charges",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2024/08/Used-of-University-Assets-Fee-Notif.pdf",
+      "note": ""
+    },
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "Adoption of West Pakistan Maintenance Act Notification",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2024/05/Adoption-of-West-pak-maintainance-Act-Notification.pdf",
+      "note": "56th Syndicate"
+    },
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "UG Policy Fall 2023",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2024/01/UG-Policy_fall2023.pdf",
+      "note": "53rd Syndicate"
+    },
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "Student Welfare Funds",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2024/01/SWF-50-200.pdf",
+      "note": "53rd Syndicate"
+    },
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "Adaptation of HEC Policies",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2024/01/HEC_Plocies.pdf",
+      "note": "53rd Syndicate"
+    },
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "Endowment Fund for Revenue Enhancement Policy",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2023/07/UoS-Endownment-Fund-for-Revenue-Enhancement-Policy.pdf",
+      "note": "51st Syndicate"
+    },
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "Student Welfare Fund Policy",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2023/07/Student-Welfare-Fund-Policy.pdf",
+      "note": "51st Syndicate"
+    },
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "Age Relaxation & Deceased Employee Quota Rules",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2023/07/Age-Relaxation-Deceased-Employee-Qouta-Rules.pdf",
+      "note": "51st Syndicate"
+    },
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "ODL Policy",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2023/07/ODL-Policy-and-Approval-of-the-Syndicate.pdf",
+      "note": "51st Syndicate"
+    },
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "Semester Regulations (UoS Semester System Regulations)",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2023/07/UoS-Semester-System-Regulations.pdf",
+      "note": "51st Syndicate; scanned, no text"
+    },
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "Final Performance Base Increment Policy",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2023/04/Final-Performance-base-increment-policy.pdf",
+      "note": ""
+    },
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "Revised Fee Notifications",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2023/03/Fee-Notifications-.pdf",
+      "note": "Historical"
+    },
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "50th Syndicate Revised Fee Final Notification",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2023/03/50th-Syndicate-Revised-Fee-Final-Notification-50.pdf",
+      "note": "Historical"
+    },
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "Approval of Draft Policy For Online Classes, Conduct of Examination During COVID Pandemic and Payment to Visiting Faculty",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2019/09/34-SYND-2020-31-05282021103328.pdf",
+      "note": "Historical (34th Syndicate, 2020)"
+    },
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "Approval for Launching of Associate Degree Programs in Affiliated Colleges",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2021/02/Page0001.pdf",
+      "note": ""
+    },
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "Change in nomenclature of DORIC to ORIC",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2021/01/Page0007.pdf",
+      "note": ""
+    },
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "Inclusion of Registrar or his Nominee in Departmental Tenure Review Committee",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2021/01/Page0014.pdf",
+      "note": ""
+    },
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "Remuneration of the Departmental Semester Coordinators",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2021/01/Page0021.pdf",
+      "note": ""
+    },
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "Remunerations of Supervisors of MPhil Scholars",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2021/01/Page0022.pdf",
+      "note": ""
+    },
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "Revision in Remuneration rates of member/Drivers of statutory bodies meetings",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2021/01/Page0029.pdf",
+      "note": ""
+    },
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "Grievance Committee (COVID-19)",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2020/08/Page0003.pdf",
+      "note": "Historical"
+    },
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "Draft Policy for Online Classes",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2020/09/Page0031.pdf",
+      "note": "Historical"
+    },
+    {
+      "group": "Syndicate Decisions or Related",
+      "title": "Semester System Fee Structure for University of Swat and its Affiliated Colleges (2020)",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2020/09/New-Approved-Fee-Structure-2020-2.pdf",
+      "note": "Historical"
+    },
+    {
+      "group": "Students",
+      "title": "Provincial Zakat Administration Scholarship Form (Educational Stipends)",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2022/04/Application-form_2.pdf",
+      "note": ""
+    },
+    {
+      "group": "Students",
+      "title": "Credit Transfer Form",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2019/09/Credit-Transfer-Form-1.docx",
+      "note": "DOCX"
+    },
+    {
+      "group": "Students",
+      "title": "Admission Cancellation Form",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2019/09/Admission-Cancellation-Form.pdf",
+      "note": ""
+    },
+    {
+      "group": "Students",
+      "title": "M.Phil/Ph.D Regulations (file name: University of Peshawar)",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2020/08/University-of-Peshawar-M.Phil-Ph.D-Regulations.pdf",
+      "note": "Hosted on the Swat site; originates from another university"
+    },
+    {
+      "group": "Students",
+      "title": "Students Societies",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2020/05/Student-Societies-1.pdf",
+      "note": ""
+    },
+    {
+      "group": "Students",
+      "title": "Pakistan Baitul Maal Stipend Application Form 2019",
+      "url": "http://uswat.edu.pk/wp-content/uploads/2019/10/Application-form-for-PBM-Scholarship-2019.pdf",
+      "note": "Historical"
+    },
+    {
+      "group": "Students",
+      "title": "MS/MPhil/PhD Form 2019",
+      "url": "http://uswat.edu.pk/wp-content/uploads/2019/10/MPhil_PhD_Form_2019.pdf",
+      "note": "Historical"
+    },
+    {
+      "group": "Students",
+      "title": "Master Additional Form",
+      "url": "http://uswat.edu.pk/wp-content/uploads/2019/10/master-Additional-Form.pdf",
+      "note": "Historical"
+    },
+    {
+      "group": "Students",
+      "title": "Alumni Form (convocation registration)",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2025/07/reg-form-convocation.pdf",
+      "note": ""
+    },
+    {
+      "group": "Students",
+      "title": "Transport Form",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2025/10/Transport-Form.pdf",
+      "note": ""
+    },
+    {
+      "group": "Students",
+      "title": "Format of college to University of student record",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2026/05/Student-Data.xlsx",
+      "note": "XLSX template"
+    },
+    {
+      "group": "Employment Forms",
+      "title": "Employment-Form-BPS-17 (PDF)",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2019/09/Employment-Form-BPS-17.pdf",
+      "note": ""
+    },
+    {
+      "group": "Employment Forms",
+      "title": "Employment-Form BPS-16-Below-Support-Staff (PDF)",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2019/09/Employment-Form-BPS-16-Below-Support-Staff.pdf",
+      "note": ""
+    },
+    {
+      "group": "Employment Forms",
+      "title": "Employment-Form-BPS-17 (MS WORD)",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2019/09/Employment-Form-BPS-17.docx",
+      "note": "DOCX"
+    },
+    {
+      "group": "Employment Forms",
+      "title": "Employment-Form BPS-16-Below-Support-Staff (MS WORD)",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2019/09/Employment-Form-BPS-16-Below-Support-Staff.docx",
+      "note": "DOCX"
+    },
+    {
+      "group": "Bank Deposit Slips",
+      "title": "General Fee Slip 2024",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2024/02/General-Fee-Slip-2024.pdf",
+      "note": ""
+    },
+    {
+      "group": "Bank Deposit Slips",
+      "title": "HBL Bank Deposit Slip for Main Campus (PDF)",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2020/01/HBL-Bank-Deposit-Slip-for-Main-Campus-MS-Word.pdf",
+      "note": ""
+    },
+    {
+      "group": "Bank Deposit Slips",
+      "title": "HBL Bank Deposit Slip for Main Campus (DOCX)",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2020/01/HBL-Bank-Deposit-Slip-for-Main-Campus-MS-Word.docx",
+      "note": "DOCX"
+    },
+    {
+      "group": "Bank Deposit Slips",
+      "title": "HBL Bank Deposit Slip for Women Campus (PDF)",
+      "url": "http://uswat.edu.pk/wp-content/uploads/2019/11/HBL-Bank-Deposit-Slip-for-Women-Campus-PDF-Format-1.pdf",
+      "note": ""
+    },
+    {
+      "group": "Bank Deposit Slips",
+      "title": "HBL Bank Deposit Slip for Women Campus (second listing)",
+      "url": "http://uswat.edu.pk/wp-content/uploads/2019/11/HBL-Bank-Deposit-Slip-for-Women-Campus-PDF-Format.pdf",
+      "note": "Listed as MS Word but link is a PDF"
+    },
+    {
+      "group": "Affiliations",
+      "title": "Application Form for Affiliation of Degree Program",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2026/07/Application-Form-for-Affiliation-of-Degree-Program.docx",
+      "note": "DOCX"
+    },
+    {
+      "group": "Scholarship Forms",
+      "title": "Application Form HEC Need Based Scholarship",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2024/05/Application-Form-HEC-Need-Based-Scholarship.pdf",
+      "note": ""
+    },
+    {
+      "group": "Scholarship Forms",
+      "title": "Student Detail (Ehsaas)",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2019/09/Students-Details.docx",
+      "note": "DOCX"
+    },
+    {
+      "group": "Scholarship Forms",
+      "title": "Deed of agreement (Ehsaas)",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2019/09/Deed-of-agreement-UoS.pdf",
+      "note": ""
+    },
+    {
+      "group": "Scholarship Forms",
+      "title": "Student Details (Need Based Scholarship)",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2019/09/Student-Details-Need-Based-Scholarship.docx",
+      "note": "DOCX"
+    },
+    {
+      "group": "Scholarship Forms",
+      "title": "Deed of agreement (Need Based Scholarship)",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2019/09/Deed-of-agreement-Need-Based-Scholarship.pdf",
+      "note": ""
+    },
+    {
+      "group": "Scholarship Forms",
+      "title": "EHSAAS Undergraduate scholarship",
+      "url": "http://uswat.edu.pk/wp-content/uploads/2019/11/EHSAAS-Undergraduate-scholarship.pdf",
+      "note": ""
+    },
+    {
+      "group": "Scholarship Forms",
+      "title": "Pakistan Bait ul Mal Scholarship (Spring 2021)",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2021/04/PBM-Application-Spring-2021.pdf",
+      "note": "Historical"
+    },
+    {
+      "group": "Other Proformas",
+      "title": "Proforma for Email Account (Uswat V-II)",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2025/10/Proforma-for-Email-Account-Uswat-V-II.pdf",
+      "note": ""
+    },
+    {
+      "group": "Other Proformas",
+      "title": "CMS Account Creation Proforma (Faculty)",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2025/10/CMS-Account-Creation-Proforma.pdf",
+      "note": ""
+    },
+    {
+      "group": "Other Proformas",
+      "title": "MAC Registration Proforma (Internet)",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2025/10/MAC-Registration-Proforma-1.pdf",
+      "note": ""
+    },
+    {
+      "group": "Other Proformas",
+      "title": "CMS Result Revision Proforma",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2025/12/CMS-Result-Revision-Proforma.pdf",
+      "note": ""
+    },
+    {
+      "group": "Other Proformas",
+      "title": "House Allotment Form (PDF)",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2019/09/House-Allotment-Form.pdf",
+      "note": ""
+    },
+    {
+      "group": "Reports and Minutes",
+      "title": "Annual Report 2019",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2019/09/Annual-Report-2019-16-Standard.pdf",
+      "note": "Historical"
+    },
+    {
+      "group": "Reports and Minutes",
+      "title": "11th Senate Meeting Minutes",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2025/11/11-Senate-Meeting-Minutes-UOS.pdf",
+      "note": "Uploaded 2025-11"
+    },
+    {
+      "group": "Academic Calendar page",
+      "title": "2024 Academic Calendar",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2023/11/2024-Academic-Calendar-1.pdf",
+      "note": "Potentially outdated"
+    },
+    {
+      "group": "Academic Calendar page",
+      "title": "Revised Academic Calendar for A.D Program Semester-II & IV Spring 2023",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2023/07/Acad-cal-Aff-colleges.jpg",
+      "note": "Historical image"
+    },
+    {
+      "group": "Academic Calendar page",
+      "title": "Tentative Academic Calendar (Fall 2023, Spring 2023) published 04-07-2023",
+      "url": "https://uswat.edu.pk/wp-content/uploads/2023/07/Academic-Calendar-2023-Revised-04-07-2023.pdf",
+      "note": "Historical"
+    }
+  ]
+}

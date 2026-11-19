@@ -1,0 +1,57 @@
+{
+  "generated": "2026-11-18",
+  "categories": [
+    {
+      "folder": "00-university-overview",
+      "description": "Profile, history, leadership, vision/mission/values, legal status and campus recognition caveats"
+    },
+    {
+      "folder": "01-admissions",
+      "description": "Admission contacts, fee schedule and fee rules, scholarships, deadline status"
+    },
+    {
+      "folder": "02-academics",
+      "description": "Faculties, departments, academic calendar status, semester system"
+    },
+    {
+      "folder": "03-departments-and-faculty",
+      "description": "Department telephone directory"
+    },
+    {
+      "folder": "04-student-services",
+      "description": "Online services, portals and student-facing offices"
+    },
+    {
+      "folder": "05-administration",
+      "description": "Offices, directorates and contact directory"
+    },
+    {
+      "folder": "06-research-and-development",
+      "description": "ORIC and research-related facts"
+    },
+    {
+      "folder": "07-policies-and-regulations",
+      "description": "Regulations index and Statutes 2025 summary"
+    },
+    {
+      "folder": "08-news-and-announcements",
+      "description": "Homepage news snapshot"
+    },
+    {
+      "folder": "09-careers-and-opportunities",
+      "description": "Job advertisements snapshot"
+    },
+    {
+      "folder": "11-downloads-and-official-documents",
+      "description": "Document inventory and forms"
+    },
+    {
+      "folder": "12-contacts-and-faqs",
+      "description": "General contact information"
+    },
+    {
+      "folder": "13-source-registry",
+      "description": "Source registry, verification, audit, research gaps and RAG evaluation tests"
+    }
+  ]
+}
