@@ -118,13 +118,13 @@ Before running the project, make sure you have:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/uos-ai-assistant.git
+git clone https://github.com/YOUR-USERNAME/UOS-Ai-Assistant.git
 ```
 
 ### 2. Navigate to the Project
 
 ```bash
-cd uos-ai-assistant
+cd UOS-Ai-Assistant
 ```
 
 ### 3. Install Dependencies
