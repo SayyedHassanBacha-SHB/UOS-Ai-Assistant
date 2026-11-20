@@ -13,6 +13,7 @@
     "@google/genai": "^3.4.0",
     "@libsql/client": "^0.18.0",
     "@prisma/client": "^7.10.1",
+    "@vercel/speed-insights": "^2.1.0",
     "ai": "^7.0.173",
     "gray-matter": "^4.0.3",
     "lucide-react": "^1.74.0",
