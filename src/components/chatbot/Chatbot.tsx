@@ -235,11 +235,11 @@ export default function Chatbot() {
   };
 
   return (
-    <div className="relative flex h-dvh min-h-dvh w-full flex-col overflow-hidden bg-white mb-0">
+    <div className="relative flex h-dvh min-h-dvh w-full flex-col overflow-hidden bg-white">
       
 
       {/* Header */}
-      <header className="relative z-10 flex h-[54px] shrink-0 items-center justify-between border-b border-neutral-100 bg-white/90 px-5 backdrop-blur-md sm:px-8">
+      <header className="relative z-10 flex h-[74px] shrink-0 items-center justify-between border-b border-neutral-100 bg-white/90 px-5 backdrop-blur-md sm:px-8">
         <div className="flex items-center gap-3">
           {/* University Icon */}
           <div className="relative h-10 w-10 shrink-0">
