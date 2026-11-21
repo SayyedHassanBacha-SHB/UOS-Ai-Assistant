@@ -20,7 +20,7 @@ type LayoutProps = {
   children: React.ReactNode;
 };
 
-const title = `${SITE_NAME} (Unofficial)`;
+const title = `${SITE_NAME} - University of Swat AI Chatbot `;
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -39,6 +39,16 @@ export const metadata: Metadata = {
     "University of Swat programs",
     "Swat university chatbot",
     "unofficial AI assistant",
+    "uos-ai-assistant",
+    "UoS AI Assistant Swat",
+    "University of Swat AI assistant",
+    "University of Swat chatbot",
+    "Swat university AI",
+    "AI assistant",
+    "AI chatbot",
+    "AI assistant for University of Swat",
+    "AI chatbot for University of Swat",
+    "University of Swat AI chatbot",
   ],
   authors: [{ name: AUTHOR }],
   creator: AUTHOR,

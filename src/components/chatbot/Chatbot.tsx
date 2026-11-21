@@ -528,15 +528,14 @@ export default function Chatbot() {
                   id="page-title"
                   className="text-balance text-[clamp(1.625rem,5vw,2.5rem)] font-bold leading-[1.15] tracking-tight text-[#14252e]"
                 >
-                  University of Swat{" "}
+                  University of Swat (UOS) -{" "}
                   <span className="bg-linear-to-r from-emerald-700 via-emerald-600 to-green-500 bg-clip-text text-transparent">
                     AI Assistant
                   </span>
                 </h1>
 
                 <p className="mt-2.5 max-w-xl text-pretty text-base leading-relaxed text-neutral-600">
-                  Your intelligent guide to university information, admissions, academics and
-                  student services.
+                  UoS AI Assistant is your guide to University of Swat admissions, academics and student services.
                 </p>
 
                 {/* Creator: stays in the middle of the landing page */}
@@ -556,7 +555,7 @@ export default function Chatbot() {
                 </div>
 
                 <h2 className="mb-2.5 mt-5 text-sm font-light text-neutral-700 sm:mt-6">
-                  Explore university information
+                  Explore University of Swat information
                 </h2>
 
                 <ul className="grid w-full grid-cols-1 gap-3 text-left sm:grid-cols-3">
